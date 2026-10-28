@@ -1,0 +1,111 @@
+{
+  "postgresql": "17.5 (Debian 17.5-1.pgdg110+1)",
+  "postgis": "3.5.2",
+  "migration": "0002",
+  "tables": [
+    "acs_profile_observations",
+    "alembic_version",
+    "crosswalk_weights",
+    "districts",
+    "evaluations",
+    "sources",
+    "spatial_ref_sys",
+    "statistics"
+  ],
+  "district_counts": {
+    "house": 51,
+    "senate": 25
+  },
+  "statistics": {
+    "county": 230,
+    "state": 46,
+    "senate": 1150,
+    "house": 2346
+  },
+  "profile_rows": 44444,
+  "source_count": 3,
+  "healthz": {
+    "status": "ok",
+    "service": "districtiq-api",
+    "ai_configured": false
+  },
+  "readyz": {
+    "status": "ready",
+    "database": "postgresql",
+    "postgis": true
+  },
+  "house30": [
+    {
+      "indicator": "median_household_income",
+      "estimate": 90180.0,
+      "moe": 9512.0,
+      "reference_period": "2020–2024"
+    },
+    {
+      "indicator": "poverty_rate",
+      "estimate": 9.8,
+      "moe": 2.6,
+      "reference_period": "2020–2024"
+    },
+    {
+      "indicator": "median_gross_rent",
+      "estimate": 2481.0,
+      "moe": 233.0,
+      "reference_period": "2020–2024"
+    },
+    {
+      "indicator": "population",
+      "estimate": 34283.0,
+      "moe": 1935.0,
+      "reference_period": "2020–2024"
+    },
+    {
+      "indicator": "median_age",
+      "estimate": 34.9,
+      "moe": 0.8,
+      "reference_period": "2020–2024"
+    },
+    {
+      "indicator": "older_adult_share",
+      "estimate": 11.2,
+      "moe": 1.2,
+      "reference_period": "2020–2024"
+    }
+  ],
+  "docker_engine": "29.9.2",
+  "docker_compose": "5.6.1",
+  "database_container": "haic26-db-1",
+  "database_container_healthy": true,
+  "database_volume": "haic26_pgdata",
+  "mapped_indicators": 46,
+  "numeric_indicators_per_geography": 44,
+  "unavailable_statistics": 164,
+  "original_observations_by_geography": {
+    "house": 27642,
+    "senate": 13550,
+    "county": 2710,
+    "state": 542
+  },
+  "topology": {
+    "valid_districts": 76,
+    "same_chamber_overlaps_above_1_square_metre": 0,
+    "maximum_house_overlap_square_metres": 0.0019496573418544031,
+    "maximum_senate_overlap_square_metres": 0
+  },
+  "automated_tests": {
+    "backend_unit_passed": 76,
+    "database_integration_passed": 4,
+    "frontend_passed": 9
+  },
+  "checks": {
+    "ruff": "passed",
+    "typescript": "passed",
+    "production_build": "passed",
+    "frontend_http_status": 200
+  },
+  "verification_limits": [
+    "Full Compose API/web container builds not exercised; native API/web plus Compose database verified.",
+    "Maui/Kalawao are separate regional contextual benchmarks; no exact county-intersection membership claim.",
+    "Poverty counts and poverty denominator are unavailable in supplied profiles."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "study_date": "2026-10-26 Pacific/Honolulu",
+  "artifact_checks": {
+    "all_30_questions": true,
+    "all_questions_have_official_sources": true,
+    "ten_required_sections": true,
+    "unique_dataset_ids": true,
+    "program_records": true,
+    "no_template_placeholders": true,
+    "numeric_values_preserved": true,
+    "all_local_links_exist": true
+  },
+  "catalog_entries": 37,
+  "program_entries": 16,
+  "raw_row_definitions": 542,
+  "mapped_field_definitions": 46,
+  "final_read_only_database_counts": {
+    "districts": 76,
+    "statistics": 3772,
+    "acs_profile_observations": 44444,
+    "sources": 3
+  },
+  "scope": "No application/schema changes or statistical ingestion; runtime test suites not rerun for research-only artifacts."
+}

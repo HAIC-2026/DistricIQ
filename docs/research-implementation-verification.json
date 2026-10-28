@@ -1,0 +1,137 @@
+{
+  "migration": "0003",
+  "districts": 76,
+  "original_observations": 44444,
+  "statistics_by_source": [
+    {
+      "source_id": "acs-2024-5yr",
+      "rows": 3772,
+      "numeric_estimates": 3608
+    },
+    {
+      "source_id": "acs-2024-detailed-B17001",
+      "rows": 4838,
+      "numeric_estimates": 4838
+    },
+    {
+      "source_id": "acs-2024-detailed-B19037",
+      "rows": 5658,
+      "numeric_estimates": 5658
+    },
+    {
+      "source_id": "acs-2024-detailed-B25007",
+      "rows": 1722,
+      "numeric_estimates": 1722
+    },
+    {
+      "source_id": "acs-2024-detailed-B25011",
+      "rows": 4018,
+      "numeric_estimates": 4018
+    },
+    {
+      "source_id": "acs-2024-detailed-B25070",
+      "rows": 902,
+      "numeric_estimates": 902
+    }
+  ],
+  "programs": 16,
+  "sources": 9,
+  "searchable_measures": 388,
+  "house30_neighbors": [
+    "house-28",
+    "house-29",
+    "house-31",
+    "house-32"
+  ],
+  "house30_examples": [
+    {
+      "indicator": "older_poverty_count",
+      "estimate": 518.0,
+      "moe": 150.7812985751217,
+      "unit": "people",
+      "universe": "Population for whom poverty status is determined; age 65+",
+      "reference_period": "2020\u20132024",
+      "method": "derived_sum"
+    },
+    {
+      "indicator": "child_poverty_count",
+      "estimate": 1045.0,
+      "moe": 261.061295484413,
+      "unit": "people",
+      "universe": "Population for whom poverty status is determined; under 18",
+      "reference_period": "2020\u20132024",
+      "method": "derived_sum"
+    },
+    {
+      "indicator": "B25070_010",
+      "estimate": 1467.0,
+      "moe": 284.0,
+      "unit": "households",
+      "universe": "Renter-occupied housing units",
+      "reference_period": "2020\u20132024",
+      "method": "direct"
+    },
+    {
+      "indicator": "older_owner_households",
+      "estimate": 815.0,
+      "moe": 177.67667263881322,
+      "unit": "households",
+      "universe": "Occupied households with householder 65+; not all individual residents age 65+",
+      "reference_period": "2020\u20132024",
+      "method": "derived_sum"
+    },
+    {
+      "indicator": "older_renter_households",
+      "estimate": 774.0,
+      "moe": 156.17298101784445,
+      "unit": "households",
+      "universe": "Occupied households with householder 65+; not all individual residents age 65+",
+      "reference_period": "2020\u20132024",
+      "method": "derived_sum"
+    },
+    {
+      "indicator": "older_household_income_under_50000",
+      "estimate": 579.0,
+      "moe": 151.94735930578062,
+      "unit": "households",
+      "universe": "Households with householder 65+; household income, not individual income or primary benefit dependence",
+      "reference_period": "2020\u20132024",
+      "method": "derived_sum"
+    }
+  ],
+  "credential_scan": {
+    "files_checked": 737,
+    "secret_value_found": false
+  },
+  "tests": {
+    "backend_including_integration": 137,
+    "frontend": 17,
+    "total": 154,
+    "ruff": "passed",
+    "frontend_lint_typescript": "passed",
+    "production_build": "passed",
+    "python_compilation": "passed"
+  },
+  "live_evaluation": {
+    "questions": 30,
+    "passed": 30,
+    "outcomes": {
+      "partially_answerable": 10,
+      "directly_answerable": 9,
+      "supported_calculation": 8,
+      "program_information": 3
+    },
+    "scope": "Live bounded answer service + PostgreSQL; HTTP/browser checked separately"
+  },
+  "browser": {
+    "production_page": true,
+    "house30_education_and_cells": true,
+    "house30_child_poverty": true,
+    "fixed_income_context_limit": true,
+    "senate15_older_poverty": true,
+    "senate15_program_discovery": true,
+    "source_controls": true,
+    "screenshot": "docs/research-assistant-verified.png",
+    "limitations": "Targeted desktop interactions; no cross-browser or assistive-technology certification"
+  }
+}

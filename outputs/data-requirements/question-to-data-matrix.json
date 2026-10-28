@@ -1,0 +1,501 @@
+{
+  "study_date": "2026-10-26 (Hawaiʻi time)",
+  "questions": [
+    {
+      "number": 1,
+      "question": "How many kūpuna in my district rely on Social Security as their primary income?",
+      "universe": "People 65+; define individual versus household income and “primary” (e.g. >50%) before measurement.",
+      "required_indicators": "Joint age × Social Security receipt × share of total income.",
+      "already_available": "No exact count. Raw DP03 rows 74–77 report all-household Social Security/retirement receipt and recipient-household means.",
+      "additional_source": "S0103 adds households with older householders receiving Social Security; B19037 adds older-householder income. Neither measures primary dependence. PUMS only for a separately defined state/PUMA study.",
+      "geographic_availability": "Receipt proxy: direct SLD. Primary-dependence custom estimate: state/PUMA only.",
+      "answerability": "Exact district answer unsupported; offer clearly labeled receipt proxy, not dependence.",
+      "priority": "1 proxy / 3 custom",
+      "methodological_limits": "Social Security ≠ SSI; receipt ≠ reliance; household benefit total ≠ person count. No multiplication of marginal totals.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B19037.html",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S0103.html"
+      ]
+    },
+    {
+      "number": 2,
+      "question": "What percentage of residents in my district are 65 or older?",
+      "universe": "All residents.",
+      "required_indicators": "Age 65+ share and MOE.",
+      "already_available": "Mapped older_adult_share; raw DP05 row 27 percentage.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct House/Senate, county and state.",
+      "answerability": "Reported estimate available now.",
+      "priority": "0 reuse",
+      "methodological_limits": "Use published percent/MOE; retain total-population universe and 2020–2024 period.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 3,
+      "question": "How many kūpuna in my district live below the poverty line?",
+      "universe": "People 65+ for whom poverty status is determined.",
+      "required_indicators": "Age 65+ below-poverty count and matched denominator.",
+      "already_available": "Raw DP03 row 145 has 65+ poverty rate/MOE, but its count is (X).",
+      "additional_source": "B17001; S0103 as a complementary profile.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Count is a documented sum of disjoint age/sex poverty cells after import; existing rate can be exposed now.",
+      "priority": "1",
+      "methodological_limits": "Do not multiply DP05 total 65+ population by the DP03 poverty rate; poverty excludes some residents.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S0103.html"
+      ]
+    },
+    {
+      "number": 4,
+      "question": "Are older residents in my district more likely to rent or own their homes?",
+      "universe": "Literal: people 65+ in occupied housing. Available alternative: households with householder 65+.",
+      "required_indicators": "Age × tenure with person or household universe made explicit.",
+      "already_available": "No age × tenure cross-tab in current profiles.",
+      "additional_source": "B25007; B25011 for older people living alone by tenure.",
+      "geographic_availability": "Direct SLD for older-householder household measure.",
+      "answerability": "Answer reworded household measure after import; literal all-older-residents measure not established by these tables.",
+      "priority": "1",
+      "methodological_limits": "A 65+ householder is not every 65+ resident. Do not relabel household tenure as resident tenure.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25007.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25011.html"
+      ]
+    },
+    {
+      "number": 5,
+      "question": "How does the kūpuna population in my district compare with the statewide average?",
+      "universe": "All residents, identifying age cutoff 65+.",
+      "required_indicators": "Age 65+ count/share for district and state.",
+      "already_available": "Mapped age_65_plus and older_adult_share in both geographies.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct SLD/state.",
+      "answerability": "Reported estimates and calculated percentage-point difference available.",
+      "priority": "0 reuse",
+      "methodological_limits": "Statewide share is not an average district count; district is part of state, so uncertainty is correlated.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 6,
+      "question": "How many older adults live alone in my district?",
+      "universe": "People 65+ living in one-person households; excludes group quarters.",
+      "required_indicators": "Older male-alone + older female-alone counts.",
+      "already_available": "Raw DP02 rows 12 and 16, each with MOE; not in chatbot allowlist.",
+      "additional_source": "None for total; B09021 for richer arrangements or B25011 for tenure.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Derived disjoint-cell sum using existing data; expose controlled formula/MOE.",
+      "priority": "0 reuse",
+      "methodological_limits": "Count people/one-person households consistently; do not include institutional residence or infer loneliness.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25011.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B09021.html"
+      ]
+    },
+    {
+      "number": 7,
+      "question": "How many families in my district struggle to afford basic necessities?",
+      "universe": "Families of a defined composition; hardship needs an operational definition.",
+      "required_indicators": "Family composition-specific budget threshold jointly with comparable disposable/gross income and costs.",
+      "already_available": "Poverty rates, income bands and housing burden are available proxies; no direct hardship count.",
+      "additional_source": "DBEDT 2024 Self-Sufficiency Income Standard; B19037/B17024 give limited additional context.",
+      "geographic_availability": "Budget: county/state, not SLD. Income/poverty proxies: direct SLD.",
+      "answerability": "Can report measured proxies and county budget scenarios; exact family hardship count unsupported.",
+      "priority": "2",
+      "methodological_limits": "Family ≠ household; basic-needs budgets ≠ Census poverty. A broad income band cannot determine how many families fall below a composition-specific threshold.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B19037.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17024.html",
+        "https://files.hawaii.gov/dbedt/economic/reports/self-sufficiency/self-sufficiency_2024.pdf"
+      ]
+    },
+    {
+      "number": 8,
+      "question": "What percentage of households spend more than 30% of their income on housing?",
+      "universe": "Occupied households with computable housing-cost share, split renter, owner with mortgage, owner without mortgage.",
+      "required_indicators": "30–34.9 and 35%+ cells plus each computed-universe denominator.",
+      "already_available": "DP04 raw rows 127/131/132,134/140/141,155/160/161. Most counts mapped; unmortgaged denominator only raw.",
+      "additional_source": "None for ≥30% computed-universe estimate; B25106 adds income cross-tabs.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Derived weighted count/denominator ratio after raw retrieval; not average of three percentages.",
+      "priority": "0 reuse",
+      "methodological_limits": "Bins support ≥30%, not strict >30%. Exclude and disclose not-computed cases; use appropriate derived MOE.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25106.html"
+      ]
+    },
+    {
+      "number": 9,
+      "question": "How many households in my district earn less than $50,000 annually?",
+      "universe": "Households; annual household income in 2024 inflation-adjusted dollars.",
+      "required_indicators": "Sum the five income bins below $50,000.",
+      "already_available": "Mapped income_profile_01–05 / DP03 rows 60–64.",
+      "additional_source": "None; B19037 only if age subgroup requested.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Derived sum available from existing records; current tool returns brackets, not a guaranteed summed fact.",
+      "priority": "0 reuse",
+      "methodological_limits": "Households do not necessarily earn wages; income includes other sources. Propagate MOE; sum estimates, not margins of error.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B19037.html"
+      ]
+    },
+    {
+      "number": 10,
+      "question": "Are residents in my district experiencing higher poverty rates than neighboring districts?",
+      "universe": "People with poverty status determined, same chamber/period; define spatial neighbor.",
+      "required_indicators": "Poverty rates/MOEs plus shared-boundary adjacency from existing polygons.",
+      "already_available": "Mapped poverty_rate for all districts; existing PostGIS geometry sufficient for adjacency.",
+      "additional_source": "None for rates; B17001 adds actual poverty counts/denominators.",
+      "geographic_availability": "Direct SLD, same chamber.",
+      "answerability": "Descriptive comparison now for named districts; spatial-neighbor tool and significance method still needed.",
+      "priority": "0 reuse",
+      "methodological_limits": "Numerically consecutive districts need not be neighbors. Rook versus point-touch adjacency must be stated; “higher estimate” does not imply significant difference.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html"
+      ]
+    },
+    {
+      "number": 11,
+      "question": "How does median household income compare with median rent in my district?",
+      "universe": "All households for income; renter-occupied units paying cash rent for median gross rent.",
+      "required_indicators": "Annual median household income and monthly median gross rent.",
+      "already_available": "Both mapped, with MOEs.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Display both now; optional annualized rent/income benchmark as a clearly labeled ratio of separate medians.",
+      "priority": "0 reuse",
+      "methodological_limits": "Different universes. 12×median rent / median income is not the median household’s burden or the share of renters cost-burdened.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 12,
+      "question": "How many households rely on government assistance as a source of income?",
+      "universe": "Households; define specific benefit and whether receipt or dependence is intended.",
+      "required_indicators": "SSI, cash public assistance, SNAP and possibly a published union; primary-income share would be separate.",
+      "already_available": "Raw DP03 78/80/82 gives separate SSI/cash/SNAP receipt counts, not reliance or union.",
+      "additional_source": "B19058 provides cash assistance OR SNAP; S2201 receipt subgroups.",
+      "geographic_availability": "Direct SLD/county/state for survey receipt; administrative district counts not verified.",
+      "answerability": "Program-specific receipt answer via raw data; defined union after import; all-assistance dependence count unsupported.",
+      "priority": "0 reuse / 1 union",
+      "methodological_limits": "SNAP is noncash; benefits overlap. Do not add SSI, SNAP and cash counts or infer primary dependence.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2201.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B19058.html"
+      ]
+    },
+    {
+      "number": 13,
+      "question": "How many renters in my district are considered severely cost-burdened?",
+      "universe": "Cash-rent renter-occupied housing units/households with computable share; not individual renters.",
+      "required_indicators": "Published 50%+ gross-rent/income cell and MOE.",
+      "already_available": "No. DP04 ends at 35%+; this cannot isolate 50%+.",
+      "additional_source": "B25070.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported 50%+ bin after import, with universe and not-computed exclusions.",
+      "priority": "1",
+      "methodological_limits": "Confirm convention: published ≥50% bin cannot identify strict >50%. Explain household versus person count.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html"
+      ]
+    },
+    {
+      "number": 14,
+      "question": "What percentage of residents in my district live in owner-occupied housing?",
+      "universe": "People in occupied housing units, or all residents if explicitly including group quarters in denominator.",
+      "required_indicators": "Person counts by tenure and appropriate population denominator.",
+      "already_available": "DP04 owner/renter counts and percentages are households, not people.",
+      "additional_source": "B25008, with DP05 total population only if all-resident denominator is requested.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Derived person-based share after import.",
+      "priority": "1",
+      "methodological_limits": "Do not use owner-household share or rounded average household size to manufacture exact resident counts; group quarters alter denominator.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25008.html"
+      ]
+    },
+    {
+      "number": 15,
+      "question": "Are housing costs higher in my district than in the rest of Honolulu County?",
+      "universe": "Comparable renter/owner housing universes. “Rest” excludes district and differs from whole county.",
+      "required_indicators": "Same cost indicator for district and comparator; remainder medians require microdistribution, not subtraction.",
+      "already_available": "Mapped district and whole-Honolulu medians plus some burden counts.",
+      "additional_source": "No download for whole-county comparison; full-county/remainder counts may be constructed only for additive compatible cells and containment.",
+      "geographic_availability": "SLD and whole county directly; county-minus-district median not published in current data.",
+      "answerability": "Whole-county descriptive benchmark available; exact rest-of-county median unavailable.",
+      "priority": "0 reuse",
+      "methodological_limits": "Do not subtract medians. District may not be fully within Honolulu; for multi-county districts provide all relevant county contexts, not a fabricated blended county.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 16,
+      "question": "How many households might be at risk of housing instability?",
+      "universe": "Households; requires a validated risk definition and observation period.",
+      "required_indicators": "Burden, low income, overcrowding, tenure and possibly arrears/eviction/displacement information.",
+      "already_available": "Several burden, crowding and income proxies in raw DP04/DP03; no instability label or validated risk score.",
+      "additional_source": "B25070/B25106; HUD CHAS later for housing problems. Administrative eviction/arrears district series not verified.",
+      "geographic_availability": "Proxy ACS direct SLD; CHAS smaller-area/county; risk outcome coverage unknown.",
+      "answerability": "Report separately measured risk factors; no defensible unique at-risk count by summing overlaps.",
+      "priority": "1 proxies / 3 outcome",
+      "methodological_limits": "Cost burden is not a prediction of eviction/homelessness. Adding overlapping vulnerable groups double-counts households.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25106.html"
+      ]
+    },
+    {
+      "number": 17,
+      "question": "What are the biggest housing-related challenges shown by my district’s demographic data?",
+      "universe": "Distinct housing/household universes per measure.",
+      "required_indicators": "Rent, burden, tenure, vacancy, crowding and county/state benchmarks, each with MOE.",
+      "already_available": "Mapped rent/tenure/burden plus raw DP04 crowding, housing age, value and costs.",
+      "additional_source": "B25070/B25106 deepen analysis; HHFDC inventory supports referrals, not resident outcomes.",
+      "geographic_availability": "Direct SLD for ACS; property points for inventory.",
+      "answerability": "Evidence-based descriptive summary now, with expanded raw retrieval; rank only compatible metrics.",
+      "priority": "0 reuse / 1 detail",
+      "methodological_limits": "No causal diagnosis or resident-level inference. Vacancy categories are not necessarily available housing; unequal denominators cannot be combined into one count.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25106.html"
+      ]
+    },
+    {
+      "number": 18,
+      "question": "Are there more renters or homeowners in my district?",
+      "universe": "Clarify households versus people; default tenure of occupied households.",
+      "required_indicators": "Owner/renter occupied household counts.",
+      "already_available": "Mapped owner_occupied and renter_occupied; DP04 54/55.",
+      "additional_source": "None for households; B25008 for people.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported household estimates now.",
+      "priority": "0 reuse",
+      "methodological_limits": "Call them renter/owner households, not number of property owners or individual renters; a landlord can live elsewhere.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25008.html"
+      ]
+    },
+    {
+      "number": 19,
+      "question": "How many children under 18 live in my district?",
+      "universe": "All residents under age 18.",
+      "required_indicators": "Under-18 population.",
+      "already_available": "Mapped age_under_18; raw DP05 row 22.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported estimate now.",
+      "priority": "0 reuse",
+      "methodological_limits": "Use exact under-18 total; do not include the entire 15–19 age-distribution bin.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 20,
+      "question": "What percentage of households have children under 18?",
+      "universe": "Households with one or more people under 18, unless own-child relationship is specifically requested.",
+      "required_indicators": "Published households-with-under18 percent and MOE.",
+      "already_available": "Raw DP02 row 17, not chatbot allowlist.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported percentage once raw retrieval exposed.",
+      "priority": "0 reuse",
+      "methodological_limits": "“Children of householder” is narrower than any resident under18; use the requested definition, not sum of household-type subrows.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 21,
+      "question": "How many children live in households below the poverty line?",
+      "universe": "Children under18 for whom poverty status is determined; poverty assigned using Census family/unrelated-person rules.",
+      "required_indicators": "Under18 below-poverty count; clarify family-poverty concept rather than generic household-income cutoff.",
+      "already_available": "Raw DP03 row 139 provides child-poverty rate only; count (X).",
+      "additional_source": "B17001.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Disjoint age/sex cell sum after import; rate can be exposed now.",
+      "priority": "1",
+      "methodological_limits": "Household income and family poverty differ. Do not multiply all children by a mismatched rate denominator.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html"
+      ]
+    },
+    {
+      "number": 22,
+      "question": "What percentage of adults have a bachelor’s degree or higher?",
+      "universe": "Conventionally population age25+; “adults”18+ is a different question.",
+      "required_indicators": "Published BA+ percent and MOE for age25+.",
+      "already_available": "Raw DP02 row 78, denominator row69; not allowlisted.",
+      "additional_source": "None for25+; an age-specific education table would need separate verification for an18+ request.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported25+ estimate once raw retrieval exposed.",
+      "priority": "0 reuse",
+      "methodological_limits": "State age25+ explicitly. BA+ row already includes graduate degrees; do not double-count by adding both a combined total and component.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 23,
+      "question": "How many grandparents are responsible for raising their grandchildren?",
+      "universe": "Grandparents living with own grandchildren under18 who report responsibility for basic needs.",
+      "required_indicators": "Responsible-grandparent people and MOE.",
+      "already_available": "Raw DP02 row52 (row58 repeats same total in a later section).",
+      "additional_source": "None for total; S1002 for subgroup detail.",
+      "geographic_availability": "Direct SLD/county/state.",
+      "answerability": "Reported count once raw retrieval exposed.",
+      "priority": "0 reuse",
+      "methodological_limits": "Not necessarily sole/legal custody. Do not double-count repeated total; B10002 counts grandchildren, not grandparents.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S1002.html"
+      ]
+    },
+    {
+      "number": 24,
+      "question": "How does educational attainment in my district compare with the statewide average?",
+      "universe": "Population25+ in district and state.",
+      "required_indicators": "Same education category percentages/denominators/MOEs.",
+      "already_available": "Raw DP02 rows69–78 across all82 geographies.",
+      "additional_source": "None.",
+      "geographic_availability": "Direct SLD/state.",
+      "answerability": "Reported estimates and calculated percentage-point differences after raw retrieval.",
+      "priority": "0 reuse",
+      "methodological_limits": "Compare consistent categories and period; state includes district; differences need appropriate uncertainty handling.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/"
+      ]
+    },
+    {
+      "number": 25,
+      "question": "Which government assistance programs might be relevant to low-income kūpuna in my district?",
+      "universe": "District older-adult need signals; program eligibility assessed for individuals/assistance units separately.",
+      "required_indicators": "Age, poverty, disability, tenure and program-specific rules/referral geography.",
+      "already_available": "Older share mapped; older poverty/disability/alone and SSI/SS receipt raw. No verified program directory currently imported.",
+      "additional_source": "Versioned SSI, AABD, SNAP, Med-QUEST, Medicare Savings/Extra Help, housing, H-HEAP and aging-service official records; B17001/S0103 enrich need.",
+      "geographic_availability": "Need direct SLD; program rules statewide/federal/county service areas; not district eligibility counts.",
+      "answerability": "Explain potential relevance with citations; individual eligibility requires additional inputs and agency determination.",
+      "priority": "1 statistics / 2 program directory",
+      "methodological_limits": "65+ and60+ program cutoffs differ. Low income alone does not establish assets, functional need, status, household unit or availability.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S0103.html",
+        "https://humanservices.hawaii.gov/bessd/snap./",
+        "https://www.ssa.gov/ssi/text-eligibility-ussi.htm",
+        "https://health.hawaii.gov/eoa/home/home-and-community-services/"
+      ]
+    },
+    {
+      "number": 26,
+      "question": "How many residents might benefit from affordable housing assistance?",
+      "universe": "People versus households must be resolved; measured housing need ≠ qualifying applicants.",
+      "required_indicators": "Burden/AMI-income/tenure/household-size joint cells plus program rules, capacity and actual participation.",
+      "already_available": "Rent, income and burden proxies only.",
+      "additional_source": "B25070/B25106, HUD income limits; HUD CHAS later; HPHA/county participation data if published or supplied.",
+      "geographic_availability": "Direct ACS SLD proxy; HUD county/other areas; district administrative counts not verified.",
+      "answerability": "Quantify specific measured household needs; no exact eligible-person or unmet-service count.",
+      "priority": "1 proxies / 2 rules / 3 participation",
+      "methodological_limits": "Do not subtract county participation from district ACS needs. AMI-adjusted limits differ from a fixed $50k threshold; waitlists and eligibility differ.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B25106.html",
+        "https://www.huduser.gov/portal/datasets/il.html",
+        "https://hpha.hawaii.gov/how-to-apply"
+      ]
+    },
+    {
+      "number": 27,
+      "question": "What demographic indicators suggest a need for food assistance programs?",
+      "universe": "People in poverty, older people/children, and households reporting SNAP; separate universes.",
+      "required_indicators": "Poverty and child/older poverty, low income, disability, SNAP receipt, vehicles and food-access context.",
+      "already_available": "Poverty/income mapped; SNAP, age poverty rates, disability and vehicles raw.",
+      "additional_source": "B17001/S2201/B22003; program directory.",
+      "geographic_availability": "ACS direct SLD; administrative participation generally larger reporting areas.",
+      "answerability": "Report indicators and potential relevance, not a measured food-insecurity count.",
+      "priority": "0 reuse / 1 cross-tabs",
+      "methodological_limits": "Poverty and SNAP receipt are not direct food insecurity measures; SNAP nonreceipt is not proof of noneligibility or unmet eligible need.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2201.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B22003.html",
+        "https://humanservices.hawaii.gov/bessd/snap./"
+      ]
+    },
+    {
+      "number": 28,
+      "question": "Which existing programs support older adults with limited retirement income?",
+      "universe": "Individuals/assistance units with program-specific ages/resources/Medicare or functional status.",
+      "required_indicators": "Verified purposes, eligibility rules, benefit types and application/referral paths.",
+      "already_available": "No program directory in imported sources. Raw retirement/SSI/SS measures offer district context only.",
+      "additional_source": "Official SSI, AABD, SNAP, Med-QUEST, Medicare Savings, Extra Help, aging/nutrition/Kūpuna Care, housing and H-HEAP records.",
+      "geographic_availability": "Rules federal/state; county/local administration and availability.",
+      "answerability": "Program information answer after directory curation, with eligibility caveats.",
+      "priority": "2",
+      "methodological_limits": "Retirement income ≠ total countable income; Social Security retirement is not means-tested SSI. Never promise enrollment or benefits.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://humanservices.hawaii.gov/bessd/snap./",
+        "https://www.ssa.gov/ssi/text-eligibility-ussi.htm",
+        "https://health.hawaii.gov/eoa/home/home-and-community-services/"
+      ]
+    },
+    {
+      "number": 29,
+      "question": "What information would be needed to estimate how many households might qualify for SNAP?",
+      "universe": "SNAP assistance units (food purchase/preparation groups), which may differ from ACS households.",
+      "required_indicators": "Current Hawaiʻi gross/net income rules, deductions, resources where applicable, elderly/disability exceptions, assistance-unit composition, status and other current requirements.",
+      "already_available": "ACS income bands, household characteristics, reported SNAP receipt; not complete eligibility inputs or joint distribution.",
+      "additional_source": "Current DHS SNAP rules plus S2201/B22003; validated state/PUMA microsimulation only if later justified.",
+      "geographic_availability": "Rules statewide; descriptive SLD cells; eligibility simulation not reliable at SLD from marginals.",
+      "answerability": "Can explain missing inputs; cannot count eligible district households from current aggregates.",
+      "priority": "2 rules / 3 simulation",
+      "methodological_limits": "Do not use a contiguous-U.S. income chart, old effective year, poverty threshold as guideline, or all households under a chosen income band as eligible.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2201.html",
+        "https://api.census.gov/data/2024/acs/acs5/groups/B22003.html",
+        "https://humanservices.hawaii.gov/bessd/snap./"
+      ]
+    },
+    {
+      "number": 30,
+      "question": "What demographic trends could help government agencies plan community services?",
+      "universe": "Consistent resident/household populations across comparable time periods and boundaries.",
+      "required_indicators": "Age, poverty, disability, income, housing, language and access series with identical definitions/geography.",
+      "already_available": "One imported2020–2024 period: supports needs snapshot, not change over time.",
+      "additional_source": "Consistent-vintage prior ACS/Decennial series after boundary review; county/state PEP/LAUS, DOE and service locations for context.",
+      "geographic_availability": "Direct SLD only for compatible plans; county/state trends separately. 2024 Comparison Profiles omit SLD.",
+      "answerability": "Snapshot now; documented trend comparisons later.",
+      "priority": "2 context / 3 district history",
+      "methodological_limits": "Do not join pre/post2022 district numbers as identical areas. Overlapping five-year estimates are correlated; location of a school is not residence of its pupils.",
+      "official_source_urls": [
+        "https://census.hawaii.gov/acs/acs-2024/",
+        "https://www.census.gov/programs-surveys/decennial-census/about/rdo/state-legislative-district.2022.html",
+        "https://census.hawaii.gov/population-estimate/"
+      ]
+    }
+  ]
+}

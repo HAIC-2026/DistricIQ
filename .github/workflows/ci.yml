@@ -1,0 +1,52 @@
+name: Verify DistrictIQ
+on: [push, pull_request]
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      RUN_SEEDED_TESTS: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: services/api/requirements.lock
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      # configure generates a random local database password without printing it.
+      # No shared credential, external API key or live data download is required.
+      - name: Install dependencies and generate private local configuration
+        run: make install PYTHON=python3.12
+      - name: Check source and committed history for credentials
+        run: |
+          .venv/bin/python scripts/check_secrets.py
+          .venv/bin/python scripts/check_secrets.py --history HEAD
+      - name: Start PostGIS and apply migrations
+        run: |
+          docker compose up -d --wait db
+          make migrate
+      - name: Import checked-in official captures
+        run: |
+          make seed
+          for table in B17001 B25070 B25007 B25011 B19037; do
+            make ingest-detailed TABLE="$table"
+          done
+          make ingest-programs
+      - name: Tests, lint, type checks and production build
+        run: make test lint test-integration build
+      - name: Check generated frontend for private credentials
+        run: .venv/bin/python scripts/check_secrets.py --bundles
+      - name: Stop temporary database
+        if: always()
+        run: docker compose stop db

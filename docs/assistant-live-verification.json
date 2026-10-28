@@ -1,0 +1,1104 @@
+[
+  {
+    "question": "What is the population here?",
+    "seconds": 2.78,
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — Total population: 34,283 people; 90% MOE ±1,935 people. ACS 2020–2024. [s1]",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-population",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "population",
+          "label": "Total population",
+          "estimate": 34283.0,
+          "moe": 1935.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-population/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN4",
+          "moe_cell": "DO4",
+          "raw_estimate": "34,283",
+          "raw_moe": "±1,935",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_district_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "And its poverty rate?",
+    "seconds": 3.85,
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — All people whose income in the past 12 months is below the poverty level: 9.8%; 90% MOE ±2.6 percentage points. ACS 2020–2024. [s1]",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-poverty_rate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 9.8,
+          "moe": 2.6,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DP138",
+          "moe_cell": "DQ138",
+          "raw_estimate": "9.8%",
+          "raw_moe": "±2.6",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_district_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "Compare House Districts 30 and 31 on poverty rate and median household income.",
+    "seconds": 2.45,
+    "answer": {
+      "message": "Here are the reported estimates and calculated comparisons.\n\nHouse District 30 — Median household income (dollars): $90,180; 90% MOE ±$9,512. ACS 2020–2024. [s1]\n\nHouse District 30 — All people whose income in the past 12 months is below the poverty level: 9.8%; 90% MOE ±2.6 percentage points. ACS 2020–2024. [s2]\n\nHouse District 31 — Median household income (dollars): $93,309; 90% MOE ±$5,152. ACS 2020–2024. [s3]\n\nHouse District 31 — All people whose income in the past 12 months is below the poverty level: 10.1%; 90% MOE ±2.2 percentage points. ACS 2020–2024. [s4]\n\nThe reported Median household income (dollars) estimate is higher in House District 31. This is a descriptive comparison of estimates.\n\nCalculated difference, House District 30 minus House District 31 (Median household income (dollars)): $-3,129. Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated. [s1] [s3]\n\nThe reported All people whose income in the past 12 months is below the poverty level estimate is higher in House District 31. This is a descriptive comparison of estimates.\n\nCalculated difference, House District 30 minus House District 31 (All people whose income in the past 12 months is below the poverty level): -0.3 percentage points. Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated. [s2] [s4]\n\nDifferences are calculated from reported estimates and are descriptive. Overlapping survey estimates may not be independent; no statistical significance is claimed.\n\nACS margins of error use a 90% confidence level and describe sampling uncertainty. A margin is not a guarantee about an individual resident. Percentage margins are percentage points. A difference between two estimates needs its own uncertainty analysis; the two published MOEs are not a significance test.\n\nComparisons are descriptive. Overlapping ACS estimates may not be independent; no statistical significance is asserted.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-median_household_income",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 90180.0,
+          "moe": 9512.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN70",
+          "moe_cell": "DO70",
+          "raw_estimate": "90,180",
+          "raw_moe": "±9,512",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-house-30-poverty_rate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 9.8,
+          "moe": 2.6,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DP138",
+          "moe_cell": "DQ138",
+          "raw_estimate": "9.8%",
+          "raw_moe": "±2.6",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "acs2024-house-31-median_household_income",
+          "geography_id": "house-31",
+          "geography": "House District 31",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 93309.0,
+          "moe": 5152.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-31-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DR70",
+          "moe_cell": "DS70",
+          "raw_estimate": "93,309",
+          "raw_moe": "±5,152",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s4",
+          "statistic_id": "acs2024-house-31-poverty_rate",
+          "geography_id": "house-31",
+          "geography": "House District 31",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 10.1,
+          "moe": 2.2,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-31-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DT138",
+          "moe_cell": "DU138",
+          "raw_estimate": "10.1%",
+          "raw_moe": "±2.2",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [
+        {
+          "ref": "d1",
+          "left_ref": "s1",
+          "right_ref": "s3",
+          "difference": -3129.0,
+          "unit": "USD",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        },
+        {
+          "ref": "d2",
+          "left_ref": "s2",
+          "right_ref": "s4",
+          "difference": -0.3,
+          "unit": "percentage points",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        }
+      ],
+      "district_id": "house-30",
+      "tools_used": [
+        "compare_districts"
+      ],
+      "warnings": [
+        "Comparisons are descriptive. Overlapping ACS estimates may not be independent; no statistical significance is asserted."
+      ],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "How does Senate District 15 compare with the state on poverty rate?",
+    "seconds": 1.79,
+    "answer": {
+      "message": "Here are the reported estimates and calculated comparisons.\n\nSenate District 15 — All people whose income in the past 12 months is below the poverty level: 8.6%; 90% MOE ±1.3 percentage points. ACS 2020–2024. [s1]\n\nHawaiʻi — All people whose income in the past 12 months is below the poverty level: 10%; 90% MOE ±0.3 percentage points. ACS 2020–2024. [s2]\n\nThe reported All people whose income in the past 12 months is below the poverty level estimate is higher in Hawaiʻi. This is a descriptive comparison of estimates.\n\nCalculated difference, Senate District 15 minus Hawaiʻi (All people whose income in the past 12 months is below the poverty level): -1.4 percentage points. Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated. [s1] [s2]\n\nDifferences are calculated from reported estimates and are descriptive. Overlapping survey estimates may not be independent; no statistical significance is claimed.\n\nOverlapping ACS estimates are not independent. Differences are descriptive; no significance claim.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-senate-15-poverty_rate",
+          "geography_id": "senate-15",
+          "geography": "Senate District 15",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 8.6,
+          "moe": 1.3,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "senate",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-senate-15-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/senate",
+          "workbook": "acs2024_5yr_senate_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "BH138",
+          "moe_cell": "BI138",
+          "raw_estimate": "8.6%",
+          "raw_moe": "±1.3",
+          "workbook_sha256": "84b7ee598ac2dd722f035ab82258167002189008300a86d1750538ae00c5552b"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-state-15-poverty_rate",
+          "geography_id": "state-15",
+          "geography": "Hawaiʻi",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 10.0,
+          "moe": 0.3,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "state",
+          "boundary_vintage": null,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-state-15-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/state",
+          "workbook": "acs2024_5yr_state_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "D138",
+          "moe_cell": "E138",
+          "raw_estimate": "10.0%",
+          "raw_moe": "±0.3",
+          "workbook_sha256": "2b055f3fa12889757981ce7db8ba07e22587133291c1e12a2f2f0a9437a3bcd6"
+        }
+      ],
+      "comparisons": [
+        {
+          "ref": "d1",
+          "left_ref": "s1",
+          "right_ref": "s2",
+          "difference": -1.4,
+          "unit": "percentage points",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        }
+      ],
+      "district_id": "senate-15",
+      "tools_used": [
+        "compare_benchmark"
+      ],
+      "warnings": [
+        "Overlapping ACS estimates are not independent. Differences are descriptive; no significance claim."
+      ],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "Compare this district with Honolulu County on poverty rate.",
+    "seconds": 2.02,
+    "answer": {
+      "message": "Here are the reported estimates and calculated comparisons.\n\nHouse District 30 — All people whose income in the past 12 months is below the poverty level: 9.8%; 90% MOE ±2.6 percentage points. ACS 2020–2024. [s1]\n\nHonolulu County — All people whose income in the past 12 months is below the poverty level: 9.2%; 90% MOE ±0.4 percentage points. ACS 2020–2024. [s2]\n\nThe reported All people whose income in the past 12 months is below the poverty level estimate is higher in House District 30. This is a descriptive comparison of estimates.\n\nCalculated difference, House District 30 minus Honolulu County (All people whose income in the past 12 months is below the poverty level): 0.6 percentage points. Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated. [s1] [s2]\n\nDifferences are calculated from reported estimates and are descriptive. Overlapping survey estimates may not be independent; no statistical significance is claimed.\n\nCounty figures are independent contextual benchmarks, never assigned to district residents. Maui and Kalawao are shown separately for the Maui region; no combined estimate is calculated.\n\nOfficial district layer county/island attribute. OAHU maps to Honolulu County. MAUI supplies separate Maui and Kalawao regional benchmarks because no county-intersection dataset was supplied. No claim of exact county overlap or population allocation.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-poverty_rate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 9.8,
+          "moe": 2.6,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DP138",
+          "moe_cell": "DQ138",
+          "raw_estimate": "9.8%",
+          "raw_moe": "±2.6",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-county-15003-poverty_rate",
+          "geography_id": "county-15003",
+          "geography": "Honolulu County",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 9.2,
+          "moe": 0.4,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "county",
+          "boundary_vintage": null,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-county-15003-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/county",
+          "workbook": "acs2024_5yr_counties_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "H138",
+          "moe_cell": "I138",
+          "raw_estimate": "9.2%",
+          "raw_moe": "±0.4",
+          "workbook_sha256": "e5b79d85f963789eec543d498b73105a68db930040dcac6e5b3fef9c99f5b0f7"
+        }
+      ],
+      "comparisons": [
+        {
+          "ref": "d1",
+          "left_ref": "s1",
+          "right_ref": "s2",
+          "difference": 0.6,
+          "unit": "percentage points",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        }
+      ],
+      "district_id": "house-30",
+      "tools_used": [
+        "compare_benchmark"
+      ],
+      "warnings": [
+        "County figures are independent contextual benchmarks, never assigned to district residents. Maui and Kalawao are shown separately for the Maui region; no combined estimate is calculated.",
+        "Official district layer county/island attribute. OAHU maps to Honolulu County. MAUI supplies separate Maui and Kalawao regional benchmarks because no county-intersection dataset was supplied. No claim of exact county overlap or population allocation."
+      ],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "What are the biggest age groups in this district?",
+    "seconds": 2.16,
+    "answer": {
+      "message": "Here are the requested published distribution brackets.\n\nHouse District 30 — 35 to 44 years: 5,430 people; 90% MOE ±464 people. ACS 2020–2024. [s1]\n\nHouse District 30 — 25 to 34 years: 4,983 people; 90% MOE ±597 people. ACS 2020–2024. [s2]\n\nHouse District 30 — 45 to 54 years: 3,816 people; 90% MOE ±465 people. ACS 2020–2024. [s3]\n\nHouse District 30 — 5 to 9 years: 2,894 people; 90% MOE ±362 people. ACS 2020–2024. [s4]\n\nHouse District 30 — Under 5 years: 2,681 people; 90% MOE ±474 people. ACS 2020–2024. [s5]\n\nPublished brackets have unequal widths. Larger bracket counts do not establish a higher rate per year of age or per dollar of income.\n\nPublished age/income brackets have unequal widths; bracket counts are not comparable per-year rates.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-age_profile_07",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "age_profile_07",
+          "label": "35 to 44 years",
+          "estimate": 5430.0,
+          "moe": 464.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-age_profile_07/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN14",
+          "moe_cell": "DO14",
+          "raw_estimate": "5,430",
+          "raw_moe": "±464",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-house-30-age_profile_06",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "age_profile_06",
+          "label": "25 to 34 years",
+          "estimate": 4983.0,
+          "moe": 597.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-age_profile_06/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN13",
+          "moe_cell": "DO13",
+          "raw_estimate": "4,983",
+          "raw_moe": "±597",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "acs2024-house-30-age_profile_08",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "age_profile_08",
+          "label": "45 to 54 years",
+          "estimate": 3816.0,
+          "moe": 465.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-age_profile_08/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN15",
+          "moe_cell": "DO15",
+          "raw_estimate": "3,816",
+          "raw_moe": "±465",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s4",
+          "statistic_id": "acs2024-house-30-age_profile_02",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "age_profile_02",
+          "label": "5 to 9 years",
+          "estimate": 2894.0,
+          "moe": 362.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-age_profile_02/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN9",
+          "moe_cell": "DO9",
+          "raw_estimate": "2,894",
+          "raw_moe": "±362",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s5",
+          "statistic_id": "acs2024-house-30-age_profile_01",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "age_profile_01",
+          "label": "Under 5 years",
+          "estimate": 2681.0,
+          "moe": 474.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-age_profile_01/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN8",
+          "moe_cell": "DO8",
+          "raw_estimate": "2,681",
+          "raw_moe": "±474",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_distribution"
+      ],
+      "warnings": [
+        "Published age/income brackets have unequal widths; bracket counts are not comparable per-year rates."
+      ],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "What information is missing from this ACS profile?",
+    "seconds": 2.48,
+    "answer": {
+      "message": "Here is what is unavailable in the mapped ACS profile.\n\nHouse District 30 — People below poverty (count not published in supplied profile): Unavailable; MOE unavailable. ACS 2020–2024. [s1]\n\nHouse District 30 — Population with poverty status determined (not published in supplied profile): Unavailable; MOE unavailable. ACS 2020–2024. [s2]\n\nUnavailable or suppressed values are not zero. The supplied profiles publish poverty percentages but not poverty population counts or their denominator; those counts are not reconstructed from rounded rates. This assistant currently exposes the mapped indicators, not every raw workbook variable.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-poverty_population",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_population",
+          "label": "People below poverty (count not published in supplied profile)",
+          "estimate": null,
+          "moe": null,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "not_published_or_suppressed",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_population/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN138",
+          "moe_cell": "DO138",
+          "raw_estimate": "(X)",
+          "raw_moe": "(X)",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-house-30-poverty_denominator",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_denominator",
+          "label": "Population with poverty status determined (not published in supplied profile)",
+          "estimate": null,
+          "moe": null,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "not_published_or_suppressed",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_denominator/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": null,
+          "moe_cell": null,
+          "raw_estimate": null,
+          "raw_moe": null,
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "explain_available_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "Explain the margin of error for median household income here.",
+    "seconds": 2.09,
+    "answer": {
+      "message": "Here is how to read the reported margin of error.\n\nHouse District 30 — Median household income (dollars): $90,180; 90% MOE ±$9,512. ACS 2020–2024. [s1]\n\nACS margins of error use a 90% confidence level and describe sampling uncertainty. A margin is not a guarantee about an individual resident. Percentage margins are percentage points. A difference between two estimates needs its own uncertainty analysis; the two published MOEs are not a significance test.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-median_household_income",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 90180.0,
+          "moe": 9512.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN70",
+          "moe_cell": "DO70",
+          "raw_estimate": "90,180",
+          "raw_moe": "±9,512",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_statistic_sources"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "What do the available housing statistics suggest?",
+    "seconds": 4.24,
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — Total households: 8,609 households; 90% MOE ±433 households. ACS 2020–2024. [s1]\n\nHouse District 30 — Total housing units: 9,592 housing units; 90% MOE ±456 housing units. ACS 2020–2024. [s2]\n\nHouse District 30 — Owner-occupied: 2,493 households; 90% MOE ±306 households. ACS 2020–2024. [s3]\n\nHouse District 30 — Renter-occupied: 6,116 households; 90% MOE ±370 households. ACS 2020–2024. [s4]\n\nHouse District 30 — Median gross rent (dollars): $2,481; 90% MOE ±$233. ACS 2020–2024. [s5]\n\nHouse District 30 — Rent burden universe: 5,889 households; 90% MOE ±359 households. ACS 2020–2024. [s6]\n\nHouse District 30 — Rent: 30–34.9% of household income: 720 households; 90% MOE ±195 households. ACS 2020–2024. [s7]\n\nHouse District 30 — Rent: 35% or more of household income: 2,575 households; 90% MOE ±300 households. ACS 2020–2024. [s8]\n\nHouse District 30 — Mortgage owner-cost universe: 1,751 households; 90% MOE ±248 households. ACS 2020–2024. [s9]\n\nHouse District 30 — Mortgaged owner costs: 30–34.9%: 77 households; 90% MOE ±44 households. ACS 2020–2024. [s10]\n\nHouse District 30 — Mortgaged owner costs: 35% or more: 555 households; 90% MOE ±170 households. ACS 2020–2024. [s11]\n\nHouse District 30 — Unmortgaged owner costs: 30–34.9%: 13 households; 90% MOE ±15 households. ACS 2020–2024. [s12]\n\nHouse District 30 — Unmortgaged owner costs: 35% or more: 206 households; 90% MOE ±178 households. ACS 2020–2024. [s13]\n\nThese are aggregate housing estimates. Reported cost-burden brackets describe the published household universe, excluding cases not computed. They do not establish individual affordability or program eligibility; medians are not averages and cannot be added together.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-households",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "households",
+          "label": "Total households",
+          "estimate": 8609.0,
+          "moe": 433.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-households/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP02",
+          "estimate_cell": "DN4",
+          "moe_cell": "DO4",
+          "raw_estimate": "8,609",
+          "raw_moe": "±433",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-house-30-total_housing_units",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "total_housing_units",
+          "label": "Total housing units",
+          "estimate": 9592.0,
+          "moe": 456.0,
+          "unit": "housing units",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-total_housing_units/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN4",
+          "moe_cell": "DO4",
+          "raw_estimate": "9,592",
+          "raw_moe": "±456",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "acs2024-house-30-owner_occupied",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "owner_occupied",
+          "label": "Owner-occupied",
+          "estimate": 2493.0,
+          "moe": 306.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-owner_occupied/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN54",
+          "moe_cell": "DO54",
+          "raw_estimate": "2,493",
+          "raw_moe": "±306",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s4",
+          "statistic_id": "acs2024-house-30-renter_occupied",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "renter_occupied",
+          "label": "Renter-occupied",
+          "estimate": 6116.0,
+          "moe": 370.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-renter_occupied/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN55",
+          "moe_cell": "DO55",
+          "raw_estimate": "6,116",
+          "raw_moe": "±370",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s5",
+          "statistic_id": "acs2024-house-30-median_gross_rent",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "median_gross_rent",
+          "label": "Median gross rent (dollars)",
+          "estimate": 2481.0,
+          "moe": 233.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-median_gross_rent/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN152",
+          "moe_cell": "DO152",
+          "raw_estimate": "2,481",
+          "raw_moe": "±233",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s6",
+          "statistic_id": "acs2024-house-30-rent_burden_denominator",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "rent_burden_denominator",
+          "label": "Rent burden universe",
+          "estimate": 5889.0,
+          "moe": 359.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-rent_burden_denominator/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN155",
+          "moe_cell": "DO155",
+          "raw_estimate": "5,889",
+          "raw_moe": "±359",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s7",
+          "statistic_id": "acs2024-house-30-rent_burden_30_34",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "rent_burden_30_34",
+          "label": "Rent: 30–34.9% of household income",
+          "estimate": 720.0,
+          "moe": 195.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-rent_burden_30_34/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN160",
+          "moe_cell": "DO160",
+          "raw_estimate": "720",
+          "raw_moe": "±195",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s8",
+          "statistic_id": "acs2024-house-30-rent_burden_35_plus",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "rent_burden_35_plus",
+          "label": "Rent: 35% or more of household income",
+          "estimate": 2575.0,
+          "moe": 300.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-rent_burden_35_plus/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN161",
+          "moe_cell": "DO161",
+          "raw_estimate": "2,575",
+          "raw_moe": "±300",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s9",
+          "statistic_id": "acs2024-house-30-mortgage_burden_denominator",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "mortgage_burden_denominator",
+          "label": "Mortgage owner-cost universe",
+          "estimate": 1751.0,
+          "moe": 248.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-mortgage_burden_denominator/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN127",
+          "moe_cell": "DO127",
+          "raw_estimate": "1,751",
+          "raw_moe": "±248",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s10",
+          "statistic_id": "acs2024-house-30-mortgage_burden_30_34",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "mortgage_burden_30_34",
+          "label": "Mortgaged owner costs: 30–34.9%",
+          "estimate": 77.0,
+          "moe": 44.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-mortgage_burden_30_34/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN131",
+          "moe_cell": "DO131",
+          "raw_estimate": "77",
+          "raw_moe": "±44",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s11",
+          "statistic_id": "acs2024-house-30-mortgage_burden_35_plus",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "mortgage_burden_35_plus",
+          "label": "Mortgaged owner costs: 35% or more",
+          "estimate": 555.0,
+          "moe": 170.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-mortgage_burden_35_plus/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN132",
+          "moe_cell": "DO132",
+          "raw_estimate": "555",
+          "raw_moe": "±170",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s12",
+          "statistic_id": "acs2024-house-30-unmortgaged_burden_30_34",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "unmortgaged_burden_30_34",
+          "label": "Unmortgaged owner costs: 30–34.9%",
+          "estimate": 13.0,
+          "moe": 15.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-unmortgaged_burden_30_34/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN140",
+          "moe_cell": "DO140",
+          "raw_estimate": "13",
+          "raw_moe": "±15",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        },
+        {
+          "ref": "s13",
+          "statistic_id": "acs2024-house-30-unmortgaged_burden_35_plus",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "unmortgaged_burden_35_plus",
+          "label": "Unmortgaged owner costs: 35% or more",
+          "estimate": 206.0,
+          "moe": 178.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-unmortgaged_burden_35_plus/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP04",
+          "estimate_cell": "DN141",
+          "moe_cell": "DO141",
+          "raw_estimate": "206",
+          "raw_moe": "±178",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e"
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_housing_statistics"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "question": "How many residents aged 65+ live on fixed incomes?",
+    "seconds": 1.92,
+    "answer": {
+      "message": "That specific statistic is not available among the indicators currently mapped for this assistant. I cannot give a verified count or percentage for it. The original workbook may contain other information, but unmapped variables and combined age/income categories are not queried by this assistant.\n\nSeparate age and household-income distributions do not report how many people meet both conditions. Household income brackets do not identify residents on fixed incomes. No combined subgroup count or individual-level inference is calculated.",
+      "citations": [],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "explain_available_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  }
+]

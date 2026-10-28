@@ -1,0 +1,41 @@
+{
+  "status": "approved",
+  "url": "https://files.hawaii.gov/dbedt/economic/archive/databook/db2024/section01.xls",
+  "sha256": "3d35599688fc913e4ed4d987f4adf5be600347bed8fef74a768608e8e9adc6c8",
+  "approved_by": "local_developer_cli",
+  "rationale": "Reviewed official table 1.06, source footnotes, July 1 2024 reference date and conservation of statewide total. Maui and Kalawao remain a combined geography; no district allocation.",
+  "reference_date": "2024-07-01",
+  "approved_at": "2026-10-27T02:01:08.234238+00:00",
+  "records": [
+    {
+      "geography_id": "state-15",
+      "geographic_level": "state",
+      "estimate": 1446146.0,
+      "cell": "C26"
+    },
+    {
+      "geography_id": "county-15003",
+      "geographic_level": "county",
+      "estimate": 998747.0,
+      "cell": "D26"
+    },
+    {
+      "geography_id": "county-15001",
+      "geographic_level": "county",
+      "estimate": 209790.0,
+      "cell": "E26"
+    },
+    {
+      "geography_id": "county-15007",
+      "geographic_level": "county",
+      "estimate": 73840.0,
+      "cell": "F26"
+    },
+    {
+      "geography_id": "county-group-maui-kalawao",
+      "geographic_level": "county_group",
+      "estimate": 163769.0,
+      "cell": "G26"
+    }
+  ]
+}

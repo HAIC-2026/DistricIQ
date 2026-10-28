@@ -1,0 +1,86 @@
+{
+  "scenarios": {
+    "exact": "passed_source_and_response_contracts",
+    "related": "passed_source_and_response_contracts",
+    "universe": "passed_source_and_response_contracts",
+    "comparison": "passed_source_and_response_contracts",
+    "uncertainty": "passed_source_and_response_contracts",
+    "programs": "passed_source_and_response_contracts",
+    "unsupported": "passed_source_and_response_contracts"
+  },
+  "provenance": [
+    {
+      "url": "/v1/research/observations/house-30/older_owner_households/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/research/observations/house-30/older_renter_households/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/research/observations/senate-15/dp03_r074_estimate/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/research/observations/senate-15/dp03_r078_estimate/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/research/observations/senate-15/older_poverty_count/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/statistics/acs2024-house-30-median_household_income/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/statistics/acs2024-house-30-population/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/statistics/acs2024-house-30-poverty_rate/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/statistics/acs2024-house-31-median_household_income/provenance",
+      "status": 200
+    },
+    {
+      "url": "/v1/statistics/acs2024-house-31-poverty_rate/provenance",
+      "status": 200
+    }
+  ],
+  "programs": [
+    {
+      "id": "ssi",
+      "status": 200
+    },
+    {
+      "id": "extra-help",
+      "status": 200
+    },
+    {
+      "id": "aging-services",
+      "status": 200
+    }
+  ],
+  "/healthz": {
+    "status": "ok",
+    "service": "districtiq-api",
+    "ai_configured": true
+  },
+  "/readyz": {
+    "status": "ready",
+    "database": "postgresql",
+    "postgis": true
+  },
+  "frontend_status": 200,
+  "database": {
+    "districts": 76,
+    "original_observations": 44444,
+    "original_statistics": 3772,
+    "statistics_total": 20910,
+    "programs": 16,
+    "migration": "0003"
+  }
+}

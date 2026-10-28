@@ -1,0 +1,1383 @@
+{
+  "sources": {
+    "house": {
+      "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/33",
+      "status": "approved",
+      "expected_feature_count": 51,
+      "boundary_vintage": 2022,
+      "identifier_field": "house_id",
+      "verified_live_metadata": true,
+      "approved_by": "local_developer_cli",
+      "rationale": "Verified official metadata, complete district identifiers, expected counts and documented 2022 reapportionment plan.",
+      "approved_at": "2026-10-27T02:01:05.514660+00:00",
+      "metadata_fingerprint": "3883ac04ea3ff54089e7f3b1a6ca6349abe9c9e8a124d78b7d997c8fed0626ea",
+      "dataset_id": "d2596ede8aa131ae5591f0b9",
+      "evaluation": {
+        "dataset": {
+          "dataset_id": "d2596ede8aa131ae5591f0b9",
+          "title": "Hawaii State House Districts 2022",
+          "description": "[ Metadata ]\u00a0 2022 Hawaii State House of Representatives District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022.\u00a0 Source: Hawaii State Office of Elections, March 2022.        Please note - if you download the data from the State's \ngeoportal ( https://geoportal.hawaii.gov/ ), the data is exported in WGS84\n coordinates, although it is stored internally (in the State's \ngeodatabase), served in the State's web services \n( https://geodata.hawaii.gov/arcgis/rest/services ), and made available in\n the State's legacy download site \n( https://planning.hawaii.gov/gis/download-gis-data-expanded/ ) in UTM/NAD\n 83 HARN coordinates.       For additional information, please refer to metadata at  https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf  or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email:  gis@hawaii.gov ; Website:  https://planning.hawaii.gov/gis .",
+          "publisher": "Hawai\u02bbi Statewide GIS Program",
+          "provider": "Hawai\u02bbi Geoportal",
+          "catalog_url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/c2f8b485f2064ba1a117ececab301acd",
+          "official_source_url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/33",
+          "service_url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/33",
+          "download_url": null,
+          "format": "ArcGIS REST",
+          "geometry_type": "esriGeometryPolygon",
+          "geographic_coverage": "{\"type\": \"Polygon\", \"coordinates\": [[[-160.2493, 22.2332], [-154.7321, 22.2332], [-154.7321, 18.8934], [-160.2493, 18.8934], [-160.2493, 22.2332]]]}",
+          "geographic_level": "house",
+          "geographic_vintage": 2022,
+          "reference_year": null,
+          "publication_date": "2022-04-12T21:42:40+00:00",
+          "modified_date": "2024-02-27T22:19:23+00:00",
+          "license": "State of Hawaii Terms of Use.                The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.   \u00a0  Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846;  email:   gis@hawaii.gov.    Website:   https://planning.hawaii.gov/gis  .",
+          "keywords": [
+            "legislative district",
+            "congressional district",
+            "house district",
+            "senate district",
+            "elections",
+            "voting",
+            "reapportionment",
+            "hawaii"
+          ],
+          "feature_count": 51,
+          "available_fields": [
+            "objectid",
+            "shape",
+            "county",
+            "state_house",
+            "house_name",
+            "house_id",
+            "house_abbr",
+            "st_area(shape)",
+            "st_perimeter(shape)"
+          ],
+          "spatial_reference": {
+            "wkid": 102202,
+            "latestWkid": 3750,
+            "xyTolerance": 0.001,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -5120900,
+            "falseY": -9998100,
+            "xyUnits": 10000,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          },
+          "validation_status": "service_inspected",
+          "access_level": "public",
+          "retrieved_at": "2026-10-27T02:01:04.469747Z",
+          "raw_metadata": {
+            "id": "c2f8b485f2064ba1a117ececab301acd",
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -160.2493,
+                    22.2332
+                  ],
+                  [
+                    -154.7321,
+                    22.2332
+                  ],
+                  [
+                    -154.7321,
+                    18.8934
+                  ],
+                  [
+                    -160.2493,
+                    18.8934
+                  ],
+                  [
+                    -160.2493,
+                    22.2332
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "snippet": "Hawaii State House Districts 2022",
+              "extent": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      -160.2493,
+                      22.2332
+                    ],
+                    [
+                      -154.7321,
+                      22.2332
+                    ],
+                    [
+                      -154.7321,
+                      18.8934
+                    ],
+                    [
+                      -160.2493,
+                      18.8934
+                    ],
+                    [
+                      -160.2493,
+                      22.2332
+                    ]
+                  ]
+                ]
+              },
+              "commentsEnabled": false,
+              "groupDesignations": null,
+              "access": "public",
+              "apiToken2ExpirationDate": -1,
+              "typeKeywords": [
+                "ArcGIS Server",
+                "Data",
+                "Feature Access",
+                "Feature Service",
+                "Service",
+                "Singlelayer"
+              ],
+              "description": "<div>[<a href='https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf' target='_blank' rel='nofollow ugc noopener noreferrer'>Metadata</a>]\u00a0 2022 Hawaii State House of Representatives District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022.\u00a0 Source: Hawaii State Office of Elections, March 2022.<br /></div><div><br /></div><div><div><font size='3'>Please note - if you download the data from the State's \ngeoportal (<a href='https://geoportal.hawaii.gov/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://geoportal.hawaii.gov/</a>), the data is exported in WGS84\n coordinates, although it is stored internally (in the State's \ngeodatabase), served in the State's web services \n(<a href='https://geodata.hawaii.gov/arcgis/rest/services' target='_blank' rel='nofollow ugc noopener noreferrer'>https://geodata.hawaii.gov/arcgis/rest/services</a>), and made available in\n the State's legacy download site \n(<a href='https://planning.hawaii.gov/gis/download-gis-data-expanded/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis/download-gis-data-expanded/</a>) in UTM/NAD\n 83 HARN coordinates.</font></div><div><font size='3'><br /></font></div>For additional information, please refer to metadata at <a href='https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf' target='_blank' rel='nofollow ugc noopener noreferrer'>https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf</a> or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: <a href='mailto:gis@hawaii.gov' target='_blank' rel='nofollow ugc noopener noreferrer'>gis@hawaii.gov</a>; Website: <a href='https://planning.hawaii.gov/gis' target='_blank' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis</a>.</div>",
+              "licenseInfo": "<p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' target='_blank' rel='nofollow ugc noopener noreferrer'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>\u00a0  Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' target='_blank' rel='nofollow ugc noopener noreferrer'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p>",
+              "title": "Hawaii State House Districts 2022",
+              "type": "Feature Service",
+              "orgId": "HQ0xoN0EzDPBOEci",
+              "screenshots": [],
+              "subInfo": 0,
+              "advancedSettings": null,
+              "appCategories": [],
+              "modified": 1709072363000,
+              "avgRating": 0,
+              "id": "c2f8b485f2064ba1a117ececab301acd",
+              "categories": [
+                "Administrative Boundaries"
+              ],
+              "spatialReference": null,
+              "numRatings": 0,
+              "owner": "HawaiiStateGIS",
+              "accessInformation": "State of Hawaii Office of Elections; Hawaii Statewide GIS Program",
+              "largeThumbnail": null,
+              "lastViewed": 1756670400000,
+              "thumbnail": "thumbnail/thumbnail1649799789964.png",
+              "languages": [],
+              "created": 1649799760000,
+              "documentation": null,
+              "banner": null,
+              "classification": null,
+              "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/33",
+              "tags": [
+                "legislative district",
+                "congressional district",
+                "house district",
+                "senate district",
+                "elections",
+                "voting",
+                "reapportionment",
+                "hawaii"
+              ],
+              "numViews": 77933,
+              "numComments": 0,
+              "size": 69,
+              "listed": false,
+              "scoreCompleteness": 91,
+              "culture": "en-us",
+              "industries": [],
+              "apiToken1ExpirationDate": -1,
+              "name": null,
+              "guid": null,
+              "proxyFilter": null,
+              "properties": null,
+              "source": "Hawai\u02bbi Statewide GIS Program",
+              "license": "custom"
+            },
+            "time": null,
+            "links": [
+              {
+                "rel": "self",
+                "type": "application/geo+json",
+                "title": "This document as GeoJSON",
+                "href": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/c2f8b485f2064ba1a117ececab301acd"
+              },
+              {
+                "rel": "collection",
+                "type": "application/json",
+                "title": "Data",
+                "href": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset"
+              }
+            ]
+          },
+          "inspection": {
+            "available": true,
+            "name": "State House Districts 22",
+            "layer_id": 33,
+            "geometry_type": "esriGeometryPolygon",
+            "spatial_reference": {
+              "wkid": 102202,
+              "latestWkid": 3750,
+              "xyTolerance": 0.001,
+              "zTolerance": 0.001,
+              "mTolerance": 0.001,
+              "falseX": -5120900,
+              "falseY": -9998100,
+              "xyUnits": 10000,
+              "falseZ": -100000,
+              "zUnits": 10000,
+              "falseM": -100000,
+              "mUnits": 10000
+            },
+            "extent": {
+              "xmin": 371244.86479999963,
+              "ymin": 2094231.6706000008,
+              "xmax": 940275.1116000004,
+              "ymax": 2458641.480900001,
+              "spatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              }
+            },
+            "fields": [
+              {
+                "name": "objectid",
+                "type": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "domain": null
+              },
+              {
+                "name": "shape",
+                "type": "esriFieldTypeGeometry",
+                "alias": "Shape",
+                "domain": null
+              },
+              {
+                "name": "county",
+                "type": "esriFieldTypeString",
+                "alias": "County",
+                "length": 10,
+                "domain": null
+              },
+              {
+                "name": "state_house",
+                "type": "esriFieldTypeString",
+                "alias": "State_House",
+                "length": 5,
+                "domain": null
+              },
+              {
+                "name": "house_name",
+                "type": "esriFieldTypeString",
+                "alias": "House_Name",
+                "length": 25,
+                "domain": null
+              },
+              {
+                "name": "house_id",
+                "type": "esriFieldTypeSmallInteger",
+                "alias": "House_ID",
+                "domain": null
+              },
+              {
+                "name": "house_abbr",
+                "type": "esriFieldTypeString",
+                "alias": "House_Abbr",
+                "length": 25,
+                "domain": null
+              },
+              {
+                "name": "st_area(shape)",
+                "type": "esriFieldTypeDouble",
+                "alias": "st_area(shape)",
+                "domain": null
+              },
+              {
+                "name": "st_perimeter(shape)",
+                "type": "esriFieldTypeDouble",
+                "alias": "st_perimeter(shape)",
+                "domain": null
+              }
+            ],
+            "identifier_field": "house_id",
+            "verified_identifiers": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              15,
+              16,
+              17,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              18,
+              19,
+              23,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51
+            ],
+            "feature_count": 51,
+            "queryable": true,
+            "maximum_record_count": 1000,
+            "output_formats": "JSON, geoJSON, PBF",
+            "credits": "State of Hawaii Office of Elections; Hawaii Statewide GIS Program",
+            "geographic_vintage": 2022,
+            "description": "2022 Hawaii State House of Representatives District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022.  For additional information, please refer to metadata at https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis. ",
+            "restrictions": {
+              "allowOthersToQuery": true
+            },
+            "retrieved_at": "2026-10-27T02:01:05.514584+00:00",
+            "raw": {
+              "currentVersion": 11.5,
+              "cimVersion": "3.5.0",
+              "id": 33,
+              "name": "State House Districts 22",
+              "type": "Feature Layer",
+              "description": "2022 Hawaii State House of Representatives District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022.  For additional information, please refer to metadata at https://files.hawaii.gov/dbedt/op/gis/data/house22.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis. ",
+              "geometryType": "esriGeometryPolygon",
+              "sourceSpatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              },
+              "spatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              },
+              "copyrightText": "State of Hawaii Office of Elections; Hawaii Statewide GIS Program",
+              "parentLayer": {
+                "id": 0,
+                "name": "AdminBnd"
+              },
+              "subLayers": [],
+              "minScale": 0,
+              "maxScale": 0,
+              "referenceScale": 0.0,
+              "drawingInfo": {
+                "renderer": {
+                  "type": "simple",
+                  "symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": [
+                        0,
+                        38,
+                        115,
+                        255
+                      ],
+                      "width": 2
+                    }
+                  }
+                },
+                "scaleSymbols": true,
+                "transparency": 0,
+                "labelingInfo": null
+              },
+              "defaultVisibility": false,
+              "extent": {
+                "xmin": 371244.86479999963,
+                "ymin": 2094231.6706000008,
+                "xmax": 940275.1116000004,
+                "ymax": 2458641.480900001,
+                "spatialReference": {
+                  "wkid": 102202,
+                  "latestWkid": 3750,
+                  "xyTolerance": 0.001,
+                  "zTolerance": 0.001,
+                  "mTolerance": 0.001,
+                  "falseX": -5120900,
+                  "falseY": -9998100,
+                  "xyUnits": 10000,
+                  "falseZ": -100000,
+                  "zUnits": 10000,
+                  "falseM": -100000,
+                  "mUnits": 10000
+                }
+              },
+              "hasAttachments": false,
+              "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+              "displayField": "House_Name",
+              "typeIdField": null,
+              "subtypeFieldName": null,
+              "subtypeField": null,
+              "defaultSubtypeCode": null,
+              "fields": [
+                {
+                  "name": "objectid",
+                  "type": "esriFieldTypeOID",
+                  "alias": "OBJECTID",
+                  "domain": null
+                },
+                {
+                  "name": "shape",
+                  "type": "esriFieldTypeGeometry",
+                  "alias": "Shape",
+                  "domain": null
+                },
+                {
+                  "name": "county",
+                  "type": "esriFieldTypeString",
+                  "alias": "County",
+                  "length": 10,
+                  "domain": null
+                },
+                {
+                  "name": "state_house",
+                  "type": "esriFieldTypeString",
+                  "alias": "State_House",
+                  "length": 5,
+                  "domain": null
+                },
+                {
+                  "name": "house_name",
+                  "type": "esriFieldTypeString",
+                  "alias": "House_Name",
+                  "length": 25,
+                  "domain": null
+                },
+                {
+                  "name": "house_id",
+                  "type": "esriFieldTypeSmallInteger",
+                  "alias": "House_ID",
+                  "domain": null
+                },
+                {
+                  "name": "house_abbr",
+                  "type": "esriFieldTypeString",
+                  "alias": "House_Abbr",
+                  "length": 25,
+                  "domain": null
+                },
+                {
+                  "name": "st_area(shape)",
+                  "type": "esriFieldTypeDouble",
+                  "alias": "st_area(shape)",
+                  "domain": null
+                },
+                {
+                  "name": "st_perimeter(shape)",
+                  "type": "esriFieldTypeDouble",
+                  "alias": "st_perimeter(shape)",
+                  "domain": null
+                }
+              ],
+              "geometryField": {
+                "name": "shape",
+                "type": "esriFieldTypeGeometry",
+                "alias": "Shape"
+              },
+              "indexes": [
+                {
+                  "name": "r4028_sde_rowid_uk",
+                  "fields": "objectid",
+                  "isAscending": true,
+                  "isUnique": true,
+                  "description": ""
+                },
+                {
+                  "name": "a4009_ix1",
+                  "fields": "shape",
+                  "isAscending": true,
+                  "isUnique": true,
+                  "description": ""
+                }
+              ],
+              "subtypes": [],
+              "relationships": [],
+              "canModifyLayer": true,
+              "canScaleSymbols": false,
+              "hasLabels": false,
+              "capabilities": "Map,Query,Data",
+              "maxRecordCount": 1000,
+              "maxSelectionCount": 2000,
+              "supportsStatistics": true,
+              "supportsExceedsLimitStatistics": true,
+              "supportsAdvancedQueries": true,
+              "supportedQueryFormats": "JSON, geoJSON, PBF",
+              "isDataVersioned": false,
+              "ownershipBasedAccessControlForFeatures": {
+                "allowOthersToQuery": true
+              },
+              "useStandardizedQueries": true,
+              "supportedSpatialRelationships": [
+                "esriSpatialRelIntersects",
+                "esriSpatialRelContains",
+                "esriSpatialRelCrosses",
+                "esriSpatialRelEnvelopeIntersects",
+                "esriSpatialRelIndexIntersects",
+                "esriSpatialRelOverlaps",
+                "esriSpatialRelTouches",
+                "esriSpatialRelWithin",
+                "esriSpatialRelRelation"
+              ],
+              "advancedQueryCapabilities": {
+                "useStandardizedQueries": true,
+                "supportsStatistics": true,
+                "supportsPercentileStatistics": true,
+                "supportsHavingClause": true,
+                "supportsOrderBy": true,
+                "supportsDistinct": true,
+                "supportsCountDistinct": true,
+                "supportsAdvancedQueryRelated": true,
+                "supportsQueryRelatedPagination": true,
+                "supportsPagination": true,
+                "supportsLod": false,
+                "supportsQueryWithLodSR": false,
+                "supportsTrueCurve": true,
+                "supportsQueryWithDatumTransformation": true,
+                "supportsReturningQueryExtent": true,
+                "supportsQueryWithDistance": true,
+                "supportsSqlExpression": true,
+                "supportsTimeRelation": true,
+                "supportsSqlFormat": false,
+                "supportsQueryAnalytic": true,
+                "supportsCurrentUserQueries": true
+              },
+              "supportsDatumTransformation": true,
+              "advancedQueryAnalyticCapabilities": {
+                "supportsLinearRegression": true,
+                "supportsAsync": false,
+                "supportsPercentileAnalytic": false
+              },
+              "dateFieldsTimeReference": null,
+              "preferredTimeReference": null,
+              "datesInUnknownTimezone": false,
+              "hasGeometryProperties": true,
+              "geometryProperties": {
+                "shapeAreaFieldName": "st_area(shape)",
+                "shapeLengthFieldName": "st_perimeter(shape)",
+                "units": "esriMeters",
+                "mapUnits": {
+                  "uwkid": 9001
+                }
+              },
+              "hasMetadata": true,
+              "isDataArchived": false,
+              "archivingInfo": {
+                "supportsQueryWithHistoricMoment": false,
+                "startArchivingMoment": -1
+              },
+              "supportsCoordinatesQuantization": true,
+              "supportsDynamicLegends": true
+            }
+          }
+        },
+        "score": 100,
+        "rubric_version": "1.0.0",
+        "categories": [
+          {
+            "criterion": "authority",
+            "points": 25,
+            "maximum": 25,
+            "evidence": "State of Hawaii Office of Elections; Hawaii Statewide GIS Program"
+          },
+          {
+            "criterion": "geography",
+            "points": 20,
+            "maximum": 20,
+            "evidence": "State House Districts 22"
+          },
+          {
+            "criterion": "vintage",
+            "points": 15,
+            "maximum": 15,
+            "evidence": "Verified boundary vintage: 2022; required: 2022. Modification date is not a reference year."
+          },
+          {
+            "criterion": "schema",
+            "points": 15,
+            "maximum": 15,
+            "evidence": "Verified identifier and required fields"
+          },
+          {
+            "criterion": "completeness",
+            "points": 10,
+            "maximum": 10,
+            "evidence": "Queried 51 features; 51 identifiers; expected 51"
+          },
+          {
+            "criterion": "access",
+            "points": 10,
+            "maximum": 10,
+            "evidence": "Public access verified; public-domain declaration present"
+          },
+          {
+            "criterion": "methodology",
+            "points": 5,
+            "maximum": 5,
+            "evidence": "Reapportionment adoption documented"
+          }
+        ],
+        "status": "valid_candidate",
+        "positives": [
+          "State of Hawaii Office of Elections; Hawaii Statewide GIS Program",
+          "State House Districts 22",
+          "Verified boundary vintage: 2022; required: 2022. Modification date is not a reference year.",
+          "Verified identifier and required fields",
+          "Queried 51 features; 51 identifiers; expected 51",
+          "Public access verified; public-domain declaration present",
+          "Reapportionment adoption documented"
+        ],
+        "limitations": [
+          "A recommendation is not approval for ingestion.",
+          "Geometry metadata does not establish the presence of demographic variables."
+        ],
+        "rejections": [],
+        "ingestion_method": "Approved-manifest ArcGIS query \u2192 WGS84 validation \u2192 transactional PostGIS upsert"
+      }
+    },
+    "senate": {
+      "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/34",
+      "status": "approved",
+      "expected_feature_count": 25,
+      "boundary_vintage": 2022,
+      "identifier_field": "senate_id",
+      "verified_live_metadata": true,
+      "approved_by": "local_developer_cli",
+      "rationale": "Verified official metadata, complete district identifiers, expected counts and documented 2022 reapportionment plan.",
+      "approved_at": "2026-10-27T02:01:07.539252+00:00",
+      "metadata_fingerprint": "a3a2d5321fff2db1bac9061311200470a45fd1925b44f6f7214b0357598aa81e",
+      "dataset_id": "d1fb236be5f178ac3f6c017c",
+      "evaluation": {
+        "dataset": {
+          "dataset_id": "d1fb236be5f178ac3f6c017c",
+          "title": "Hawaii State Senate Districts 2022",
+          "description": "[ Metadata ] 2022 Hawaii State Senate District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022. Source: Hawaii State Office of Elections, March 2022.       Please note - if you download the data from the State's \ngeoportal ( https://geoportal.hawaii.gov/ ), the data is exported in WGS84\n coordinates, although it is stored internally (in the State's \ngeodatabase), served in the State's web services \n( https://geodata.hawaii.gov/arcgis/rest/services ), and made available in\n the State's legacy download site \n( https://planning.hawaii.gov/gis/download-gis-data-expanded/ ) in UTM/NAD\n 83 HARN coordinates.        For additional information, please refer to metadata at  https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf  or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email:  gis@hawaii.gov ; Website:  https://planning.hawaii.gov/gis .",
+          "publisher": "Hawai\u02bbi Statewide GIS Program",
+          "provider": "Hawai\u02bbi Geoportal",
+          "catalog_url": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/8b86d4ce4cb04b988cc4cfd790405cb2",
+          "official_source_url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/34",
+          "service_url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/34",
+          "download_url": null,
+          "format": "ArcGIS REST",
+          "geometry_type": "esriGeometryPolygon",
+          "geographic_coverage": "{\"type\": \"Polygon\", \"coordinates\": [[[-160.2493, 22.2332], [-154.7321, 22.2332], [-154.7321, 18.8934], [-160.2493, 18.8934], [-160.2493, 22.2332]]]}",
+          "geographic_level": "senate",
+          "geographic_vintage": 2022,
+          "reference_year": null,
+          "publication_date": "2022-04-12T21:49:06+00:00",
+          "modified_date": "2024-02-27T22:19:30+00:00",
+          "license": "State of Hawaii Terms of Use.                The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.   \u00a0  Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846;  email:   gis@hawaii.gov.    Website:   https://planning.hawaii.gov/gis  .",
+          "keywords": [
+            "legislative districts",
+            "congressional districts",
+            "house districts",
+            "senate districts",
+            "elections",
+            "voting",
+            "reapportionment",
+            "hawaii"
+          ],
+          "feature_count": 25,
+          "available_fields": [
+            "objectid",
+            "shape",
+            "county",
+            "state_senate",
+            "senate_name",
+            "senate_id",
+            "senate_abbr",
+            "st_area(shape)",
+            "st_perimeter(shape)"
+          ],
+          "spatial_reference": {
+            "wkid": 102202,
+            "latestWkid": 3750,
+            "xyTolerance": 0.001,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -5120900,
+            "falseY": -9998100,
+            "xyUnits": 10000,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          },
+          "validation_status": "service_inspected",
+          "access_level": "public",
+          "retrieved_at": "2026-10-27T02:01:06.566402Z",
+          "raw_metadata": {
+            "id": "8b86d4ce4cb04b988cc4cfd790405cb2",
+            "type": "Feature",
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -160.2493,
+                    22.2332
+                  ],
+                  [
+                    -154.7321,
+                    22.2332
+                  ],
+                  [
+                    -154.7321,
+                    18.8934
+                  ],
+                  [
+                    -160.2493,
+                    18.8934
+                  ],
+                  [
+                    -160.2493,
+                    22.2332
+                  ]
+                ]
+              ]
+            },
+            "properties": {
+              "snippet": "Hawaii State Senate Districts 2022",
+              "extent": {
+                "type": "Polygon",
+                "coordinates": [
+                  [
+                    [
+                      -160.2493,
+                      22.2332
+                    ],
+                    [
+                      -154.7321,
+                      22.2332
+                    ],
+                    [
+                      -154.7321,
+                      18.8934
+                    ],
+                    [
+                      -160.2493,
+                      18.8934
+                    ],
+                    [
+                      -160.2493,
+                      22.2332
+                    ]
+                  ]
+                ]
+              },
+              "commentsEnabled": false,
+              "groupDesignations": null,
+              "access": "public",
+              "apiToken2ExpirationDate": -1,
+              "typeKeywords": [
+                "ArcGIS Server",
+                "Data",
+                "Feature Access",
+                "Feature Service",
+                "Metadata",
+                "Service",
+                "Singlelayer"
+              ],
+              "description": "<div>[<a href='https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf' target='_blank' rel='nofollow ugc noopener noreferrer'>Metadata</a>] 2022 Hawaii State Senate District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022. Source: Hawaii State Office of Elections, March 2022.<br /></div><div><br /></div><div><font size='3'>Please note - if you download the data from the State's \ngeoportal (<a href='https://geoportal.hawaii.gov/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://geoportal.hawaii.gov/</a>), the data is exported in WGS84\n coordinates, although it is stored internally (in the State's \ngeodatabase), served in the State's web services \n(<a href='https://geodata.hawaii.gov/arcgis/rest/services' target='_blank' rel='nofollow ugc noopener noreferrer'>https://geodata.hawaii.gov/arcgis/rest/services</a>), and made available in\n the State's legacy download site \n(<a href='https://planning.hawaii.gov/gis/download-gis-data-expanded/' target='_blank' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis/download-gis-data-expanded/</a>) in UTM/NAD\n 83 HARN coordinates.</font></div><div><font size='3'><br /></font></div><div>For additional information, please refer to metadata at <a href='https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf' target='_blank' rel='nofollow ugc noopener noreferrer'>https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf</a> or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: <a href='mailto:gis@hawaii.gov' target='_blank' rel='nofollow ugc noopener noreferrer'>gis@hawaii.gov</a>; Website: <a href='https://planning.hawaii.gov/gis' target='_blank' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis</a>.</div>",
+              "licenseInfo": "<p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' target='_blank' rel='nofollow ugc noopener noreferrer'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>\u00a0  Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' target='_blank' rel='nofollow ugc noopener noreferrer'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p>",
+              "title": "Hawaii State Senate Districts 2022",
+              "type": "Feature Service",
+              "orgId": "HQ0xoN0EzDPBOEci",
+              "screenshots": [],
+              "subInfo": 0,
+              "advancedSettings": null,
+              "appCategories": [],
+              "modified": 1709072370000,
+              "avgRating": 0,
+              "id": "8b86d4ce4cb04b988cc4cfd790405cb2",
+              "categories": [
+                "Administrative Boundaries"
+              ],
+              "spatialReference": null,
+              "numRatings": 0,
+              "owner": "HawaiiStateGIS",
+              "accessInformation": "Hawaii State Office of Elections; Hawaii Statewide GIS Program",
+              "largeThumbnail": null,
+              "lastViewed": 1756681200000,
+              "thumbnail": "thumbnail/thumbnail1649800184089.png",
+              "languages": [],
+              "created": 1649800146000,
+              "documentation": null,
+              "banner": null,
+              "classification": null,
+              "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/34",
+              "tags": [
+                "legislative districts",
+                "congressional districts",
+                "house districts",
+                "senate districts",
+                "elections",
+                "voting",
+                "reapportionment",
+                "hawaii"
+              ],
+              "numViews": 64709,
+              "numComments": 0,
+              "size": 69,
+              "listed": false,
+              "scoreCompleteness": 91,
+              "culture": "en-us",
+              "industries": [],
+              "apiToken1ExpirationDate": -1,
+              "name": null,
+              "guid": null,
+              "proxyFilter": null,
+              "properties": null,
+              "source": "Hawai\u02bbi Statewide GIS Program",
+              "license": "custom"
+            },
+            "time": null,
+            "links": [
+              {
+                "rel": "self",
+                "type": "application/geo+json",
+                "title": "This document as GeoJSON",
+                "href": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset/items/8b86d4ce4cb04b988cc4cfd790405cb2"
+              },
+              {
+                "rel": "collection",
+                "type": "application/json",
+                "title": "Data",
+                "href": "https://geoportal.hawaii.gov/api/search/v1/collections/dataset"
+              }
+            ]
+          },
+          "inspection": {
+            "available": true,
+            "name": "State Senate Districts 22",
+            "layer_id": 34,
+            "geometry_type": "esriGeometryPolygon",
+            "spatial_reference": {
+              "wkid": 102202,
+              "latestWkid": 3750,
+              "xyTolerance": 0.001,
+              "zTolerance": 0.001,
+              "mTolerance": 0.001,
+              "falseX": -5120900,
+              "falseY": -9998100,
+              "xyUnits": 10000,
+              "falseZ": -100000,
+              "zUnits": 10000,
+              "falseM": -100000,
+              "mUnits": 10000
+            },
+            "extent": {
+              "xmin": 371244.86479999963,
+              "ymin": 2094231.6706000008,
+              "xmax": 940275.1116000004,
+              "ymax": 2458641.480900001,
+              "spatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              }
+            },
+            "fields": [
+              {
+                "name": "objectid",
+                "type": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "domain": null
+              },
+              {
+                "name": "shape",
+                "type": "esriFieldTypeGeometry",
+                "alias": "Shape",
+                "domain": null
+              },
+              {
+                "name": "county",
+                "type": "esriFieldTypeString",
+                "alias": "County",
+                "length": 10,
+                "domain": null
+              },
+              {
+                "name": "state_senate",
+                "type": "esriFieldTypeString",
+                "alias": "State_Senate",
+                "length": 5,
+                "domain": null
+              },
+              {
+                "name": "senate_name",
+                "type": "esriFieldTypeString",
+                "alias": "Senate_Name",
+                "length": 25,
+                "domain": null
+              },
+              {
+                "name": "senate_id",
+                "type": "esriFieldTypeSmallInteger",
+                "alias": "Senate_ID",
+                "domain": null
+              },
+              {
+                "name": "senate_abbr",
+                "type": "esriFieldTypeString",
+                "alias": "Senate_Abbr",
+                "length": 25,
+                "domain": null
+              },
+              {
+                "name": "st_area(shape)",
+                "type": "esriFieldTypeDouble",
+                "alias": "st_area(shape)",
+                "domain": null
+              },
+              {
+                "name": "st_perimeter(shape)",
+                "type": "esriFieldTypeDouble",
+                "alias": "st_perimeter(shape)",
+                "domain": null
+              }
+            ],
+            "identifier_field": "senate_id",
+            "verified_identifiers": [
+              1,
+              2,
+              3,
+              4,
+              8,
+              5,
+              6,
+              7,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "feature_count": 25,
+            "queryable": true,
+            "maximum_record_count": 1000,
+            "output_formats": "JSON, geoJSON, PBF",
+            "credits": "Hawaii State Office of Elections; Hawaii Statewide GIS Program",
+            "geographic_vintage": 2022,
+            "description": "2022 Hawaii State Senate District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022. For additional information, please refer to metadata at https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis. ",
+            "restrictions": {
+              "allowOthersToQuery": true
+            },
+            "retrieved_at": "2026-10-27T02:01:07.539182+00:00",
+            "raw": {
+              "currentVersion": 11.5,
+              "cimVersion": "3.5.0",
+              "id": 34,
+              "name": "State Senate Districts 22",
+              "type": "Feature Layer",
+              "description": "2022 Hawaii State Senate District Boundaries as adopted by the State of Hawaii Reapportionment Commission in 2022. For additional information, please refer to metadata at https://files.hawaii.gov/dbedt/op/gis/data/senate22.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis. ",
+              "geometryType": "esriGeometryPolygon",
+              "sourceSpatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              },
+              "spatialReference": {
+                "wkid": 102202,
+                "latestWkid": 3750,
+                "xyTolerance": 0.001,
+                "zTolerance": 0.001,
+                "mTolerance": 0.001,
+                "falseX": -5120900,
+                "falseY": -9998100,
+                "xyUnits": 10000,
+                "falseZ": -100000,
+                "zUnits": 10000,
+                "falseM": -100000,
+                "mUnits": 10000
+              },
+              "copyrightText": "Hawaii State Office of Elections; Hawaii Statewide GIS Program",
+              "parentLayer": {
+                "id": 0,
+                "name": "AdminBnd"
+              },
+              "subLayers": [],
+              "minScale": 0,
+              "maxScale": 0,
+              "referenceScale": 0.0,
+              "drawingInfo": {
+                "renderer": {
+                  "type": "simple",
+                  "symbol": {
+                    "type": "esriSFS",
+                    "style": "esriSFSSolid",
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "outline": {
+                      "type": "esriSLS",
+                      "style": "esriSLSSolid",
+                      "color": [
+                        8,
+                        94,
+                        0,
+                        255
+                      ],
+                      "width": 2
+                    }
+                  }
+                },
+                "scaleSymbols": true,
+                "transparency": 0,
+                "labelingInfo": null
+              },
+              "defaultVisibility": false,
+              "extent": {
+                "xmin": 371244.86479999963,
+                "ymin": 2094231.6706000008,
+                "xmax": 940275.1116000004,
+                "ymax": 2458641.480900001,
+                "spatialReference": {
+                  "wkid": 102202,
+                  "latestWkid": 3750,
+                  "xyTolerance": 0.001,
+                  "zTolerance": 0.001,
+                  "mTolerance": 0.001,
+                  "falseX": -5120900,
+                  "falseY": -9998100,
+                  "xyUnits": 10000,
+                  "falseZ": -100000,
+                  "zUnits": 10000,
+                  "falseM": -100000,
+                  "mUnits": 10000
+                }
+              },
+              "hasAttachments": false,
+              "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+              "displayField": "Senate_Name",
+              "typeIdField": null,
+              "subtypeFieldName": null,
+              "subtypeField": null,
+              "defaultSubtypeCode": null,
+              "fields": [
+                {
+                  "name": "objectid",
+                  "type": "esriFieldTypeOID",
+                  "alias": "OBJECTID",
+                  "domain": null
+                },
+                {
+                  "name": "shape",
+                  "type": "esriFieldTypeGeometry",
+                  "alias": "Shape",
+                  "domain": null
+                },
+                {
+                  "name": "county",
+                  "type": "esriFieldTypeString",
+                  "alias": "County",
+                  "length": 10,
+                  "domain": null
+                },
+                {
+                  "name": "state_senate",
+                  "type": "esriFieldTypeString",
+                  "alias": "State_Senate",
+                  "length": 5,
+                  "domain": null
+                },
+                {
+                  "name": "senate_name",
+                  "type": "esriFieldTypeString",
+                  "alias": "Senate_Name",
+                  "length": 25,
+                  "domain": null
+                },
+                {
+                  "name": "senate_id",
+                  "type": "esriFieldTypeSmallInteger",
+                  "alias": "Senate_ID",
+                  "domain": null
+                },
+                {
+                  "name": "senate_abbr",
+                  "type": "esriFieldTypeString",
+                  "alias": "Senate_Abbr",
+                  "length": 25,
+                  "domain": null
+                },
+                {
+                  "name": "st_area(shape)",
+                  "type": "esriFieldTypeDouble",
+                  "alias": "st_area(shape)",
+                  "domain": null
+                },
+                {
+                  "name": "st_perimeter(shape)",
+                  "type": "esriFieldTypeDouble",
+                  "alias": "st_perimeter(shape)",
+                  "domain": null
+                }
+              ],
+              "geometryField": {
+                "name": "shape",
+                "type": "esriFieldTypeGeometry",
+                "alias": "Shape"
+              },
+              "indexes": [
+                {
+                  "name": "r4030_sde_rowid_uk",
+                  "fields": "objectid",
+                  "isAscending": true,
+                  "isUnique": true,
+                  "description": ""
+                },
+                {
+                  "name": "a4011_ix1",
+                  "fields": "shape",
+                  "isAscending": true,
+                  "isUnique": true,
+                  "description": ""
+                }
+              ],
+              "subtypes": [],
+              "relationships": [],
+              "canModifyLayer": true,
+              "canScaleSymbols": false,
+              "hasLabels": false,
+              "capabilities": "Map,Query,Data",
+              "maxRecordCount": 1000,
+              "maxSelectionCount": 2000,
+              "supportsStatistics": true,
+              "supportsExceedsLimitStatistics": true,
+              "supportsAdvancedQueries": true,
+              "supportedQueryFormats": "JSON, geoJSON, PBF",
+              "isDataVersioned": false,
+              "ownershipBasedAccessControlForFeatures": {
+                "allowOthersToQuery": true
+              },
+              "useStandardizedQueries": true,
+              "supportedSpatialRelationships": [
+                "esriSpatialRelIntersects",
+                "esriSpatialRelContains",
+                "esriSpatialRelCrosses",
+                "esriSpatialRelEnvelopeIntersects",
+                "esriSpatialRelIndexIntersects",
+                "esriSpatialRelOverlaps",
+                "esriSpatialRelTouches",
+                "esriSpatialRelWithin",
+                "esriSpatialRelRelation"
+              ],
+              "advancedQueryCapabilities": {
+                "useStandardizedQueries": true,
+                "supportsStatistics": true,
+                "supportsPercentileStatistics": true,
+                "supportsHavingClause": true,
+                "supportsOrderBy": true,
+                "supportsDistinct": true,
+                "supportsCountDistinct": true,
+                "supportsAdvancedQueryRelated": true,
+                "supportsQueryRelatedPagination": true,
+                "supportsPagination": true,
+                "supportsLod": false,
+                "supportsQueryWithLodSR": false,
+                "supportsTrueCurve": true,
+                "supportsQueryWithDatumTransformation": true,
+                "supportsReturningQueryExtent": true,
+                "supportsQueryWithDistance": true,
+                "supportsSqlExpression": true,
+                "supportsTimeRelation": true,
+                "supportsSqlFormat": false,
+                "supportsQueryAnalytic": true,
+                "supportsCurrentUserQueries": true
+              },
+              "supportsDatumTransformation": true,
+              "advancedQueryAnalyticCapabilities": {
+                "supportsLinearRegression": true,
+                "supportsAsync": false,
+                "supportsPercentileAnalytic": false
+              },
+              "dateFieldsTimeReference": null,
+              "preferredTimeReference": null,
+              "datesInUnknownTimezone": false,
+              "hasGeometryProperties": true,
+              "geometryProperties": {
+                "shapeAreaFieldName": "st_area(shape)",
+                "shapeLengthFieldName": "st_perimeter(shape)",
+                "units": "esriMeters",
+                "mapUnits": {
+                  "uwkid": 9001
+                }
+              },
+              "hasMetadata": true,
+              "isDataArchived": false,
+              "archivingInfo": {
+                "supportsQueryWithHistoricMoment": false,
+                "startArchivingMoment": -1
+              },
+              "supportsCoordinatesQuantization": true,
+              "supportsDynamicLegends": true
+            }
+          }
+        },
+        "score": 100,
+        "rubric_version": "1.0.0",
+        "categories": [
+          {
+            "criterion": "authority",
+            "points": 25,
+            "maximum": 25,
+            "evidence": "Hawaii State Office of Elections; Hawaii Statewide GIS Program"
+          },
+          {
+            "criterion": "geography",
+            "points": 20,
+            "maximum": 20,
+            "evidence": "State Senate Districts 22"
+          },
+          {
+            "criterion": "vintage",
+            "points": 15,
+            "maximum": 15,
+            "evidence": "Verified boundary vintage: 2022; required: 2022. Modification date is not a reference year."
+          },
+          {
+            "criterion": "schema",
+            "points": 15,
+            "maximum": 15,
+            "evidence": "Verified identifier and required fields"
+          },
+          {
+            "criterion": "completeness",
+            "points": 10,
+            "maximum": 10,
+            "evidence": "Queried 25 features; 25 identifiers; expected 25"
+          },
+          {
+            "criterion": "access",
+            "points": 10,
+            "maximum": 10,
+            "evidence": "Public access verified; public-domain declaration present"
+          },
+          {
+            "criterion": "methodology",
+            "points": 5,
+            "maximum": 5,
+            "evidence": "Reapportionment adoption documented"
+          }
+        ],
+        "status": "valid_candidate",
+        "positives": [
+          "Hawaii State Office of Elections; Hawaii Statewide GIS Program",
+          "State Senate Districts 22",
+          "Verified boundary vintage: 2022; required: 2022. Modification date is not a reference year.",
+          "Verified identifier and required fields",
+          "Queried 25 features; 25 identifiers; expected 25",
+          "Public access verified; public-domain declaration present",
+          "Reapportionment adoption documented"
+        ],
+        "limitations": [
+          "A recommendation is not approval for ingestion.",
+          "Geometry metadata does not establish the presence of demographic variables."
+        ],
+        "rejections": [],
+        "ingestion_method": "Approved-manifest ArcGIS query \u2192 WGS84 validation \u2192 transactional PostGIS upsert"
+      }
+    }
+  }
+}

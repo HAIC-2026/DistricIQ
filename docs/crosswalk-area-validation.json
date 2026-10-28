@@ -1,0 +1,731 @@
+{
+  "estimates": {
+    "senate-01": 930335809.9821647,
+    "senate-04": 4235164074.5392,
+    "senate-02": 1149058042.3030014,
+    "senate-03": 4121646576.0895925,
+    "senate-08": 1617434811.913785,
+    "senate-05": 181794075.47757047,
+    "senate-06": 429753348.5968035,
+    "senate-07": 2432596330.91985,
+    "senate-09": 47714954.93433585,
+    "senate-25": 82637687.21924737,
+    "senate-10": 19023492.28405002,
+    "senate-11": 23857345.327560868,
+    "senate-12": 7082655.516424777,
+    "senate-13": 24429114.719492607,
+    "senate-14": 56171703.27481219,
+    "senate-15": 64468469.56208347,
+    "senate-16": 71857718.22948845,
+    "senate-19": 19109591.11448165,
+    "senate-18": 79131179.41010606,
+    "senate-17": 134922322.0347874,
+    "senate-20": 29898289.55475545,
+    "senate-21": 61509987.645972215,
+    "senate-22": 171435952.23812136,
+    "senate-23": 603175544.7680227,
+    "senate-24": 56512996.59465592
+  },
+  "estimated": true,
+  "source_url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer",
+  "reference_period": "2022 boundary plan",
+  "weights": [
+    {
+      "source_geoid": "house-01",
+      "district_id": "senate-01",
+      "weight": 0.30297054228532094,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-01",
+      "district_id": "senate-04",
+      "weight": 0.6970294577146762,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-02",
+      "district_id": "senate-01",
+      "weight": 0.9999999999999994,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-03",
+      "district_id": "senate-01",
+      "weight": 0.22217047748382238,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-03",
+      "district_id": "senate-02",
+      "weight": 0.7778295225161781,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-04",
+      "district_id": "senate-02",
+      "weight": 1.000000000000002,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-05",
+      "district_id": "senate-01",
+      "weight": 0.04416683130624438,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-05",
+      "district_id": "senate-02",
+      "weight": 0.04943859832282883,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-05",
+      "district_id": "senate-03",
+      "weight": 0.7954943188152772,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-05",
+      "district_id": "senate-04",
+      "weight": 0.11090025155564269,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-06",
+      "district_id": "senate-03",
+      "weight": 0.9999999999999998,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-07",
+      "district_id": "senate-03",
+      "weight": 0.07828617196204413,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-07",
+      "district_id": "senate-04",
+      "weight": 0.9217138280379549,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-08",
+      "district_id": "senate-04",
+      "weight": 0.9999999999999977,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-15",
+      "district_id": "senate-08",
+      "weight": 0.9999999999999959,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-16",
+      "district_id": "senate-08",
+      "weight": 1.000000000000004,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-17",
+      "district_id": "senate-08",
+      "weight": 1.0000000000000036,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-09",
+      "district_id": "senate-05",
+      "weight": 0.9351699638709866,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-09",
+      "district_id": "senate-06",
+      "weight": 0.06483003612901299,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-10",
+      "district_id": "senate-05",
+      "weight": 0.536243082902336,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-10",
+      "district_id": "senate-06",
+      "weight": 0.46375691709766226,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-11",
+      "district_id": "senate-06",
+      "weight": 0.9999999999999997,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-12",
+      "district_id": "senate-06",
+      "weight": 0.06432110699315527,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-12",
+      "district_id": "senate-07",
+      "weight": 0.9356788930068447,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-13",
+      "district_id": "senate-07",
+      "weight": 0.9999999999999974,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-14",
+      "district_id": "senate-05",
+      "weight": 0.27043010123732963,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-14",
+      "district_id": "senate-06",
+      "weight": 0.7295698987626672,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-18",
+      "district_id": "senate-09",
+      "weight": 0.11431105738560642,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-18",
+      "district_id": "senate-25",
+      "weight": 0.8856889426143936,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-19",
+      "district_id": "senate-09",
+      "weight": 0.9966547072812859,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-19",
+      "district_id": "senate-10",
+      "weight": 0.0033452927187138646,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-23",
+      "district_id": "senate-10",
+      "weight": 0.48991059897535416,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-23",
+      "district_id": "senate-11",
+      "weight": 0.08549469225184159,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-23",
+      "district_id": "senate-12",
+      "weight": 0.4245947087728054,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-20",
+      "district_id": "senate-09",
+      "weight": 0.8651994065535662,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-20",
+      "district_id": "senate-10",
+      "weight": 0.13480059344643414,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-21",
+      "district_id": "senate-10",
+      "weight": 0.9999999999999996,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-22",
+      "district_id": "senate-10",
+      "weight": 0.03197382119469454,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-22",
+      "district_id": "senate-11",
+      "weight": 0.9680261788053033,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-24",
+      "district_id": "senate-10",
+      "weight": 0.1630463475231301,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-24",
+      "district_id": "senate-12",
+      "weight": 0.8369536524768691,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-25",
+      "district_id": "senate-11",
+      "weight": 0.06635306844669724,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-25",
+      "district_id": "senate-12",
+      "weight": 0.7272303448285252,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-25",
+      "district_id": "senate-13",
+      "weight": 0.20641658672477836,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-26",
+      "district_id": "senate-11",
+      "weight": 0.9470263673166386,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-26",
+      "district_id": "senate-13",
+      "weight": 0.052973632683359556,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-27",
+      "district_id": "senate-11",
+      "weight": 0.011741618397046764,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-27",
+      "district_id": "senate-13",
+      "weight": 0.936331583938707,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-27",
+      "district_id": "senate-14",
+      "weight": 0.05192679766424806,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-28",
+      "district_id": "senate-13",
+      "weight": 0.610324961913171,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-28",
+      "district_id": "senate-14",
+      "weight": 0.022776501764678894,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-28",
+      "district_id": "senate-15",
+      "weight": 0.366898536322149,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-29",
+      "district_id": "senate-14",
+      "weight": 1.0000000000000002,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-30",
+      "district_id": "senate-14",
+      "weight": 0.05200469379147015,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-30",
+      "district_id": "senate-15",
+      "weight": 0.9479953062085301,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-31",
+      "district_id": "senate-15",
+      "weight": 0.9999999999999989,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-32",
+      "district_id": "senate-14",
+      "weight": 0.6955305368999705,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-32",
+      "district_id": "senate-15",
+      "weight": 0.10534845642311724,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-32",
+      "district_id": "senate-16",
+      "weight": 0.19912100667691224,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-33",
+      "district_id": "senate-16",
+      "weight": 0.9999999999999993,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-34",
+      "district_id": "senate-15",
+      "weight": 0.07207378330044731,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-34",
+      "district_id": "senate-16",
+      "weight": 0.8831757479964738,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-34",
+      "district_id": "senate-19",
+      "weight": 0.044750468703077084,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-35",
+      "district_id": "senate-15",
+      "weight": 0.5561981865059588,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-35",
+      "district_id": "senate-18",
+      "weight": 0.2022444447264193,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-35",
+      "district_id": "senate-19",
+      "weight": 0.2415573687676214,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-36",
+      "district_id": "senate-15",
+      "weight": 0.0920337000088633,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-36",
+      "district_id": "senate-18",
+      "weight": 0.028956455106045886,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-36",
+      "district_id": "senate-19",
+      "weight": 0.8790098448850913,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-37",
+      "district_id": "senate-17",
+      "weight": 0.8301914030214665,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-37",
+      "district_id": "senate-18",
+      "weight": 0.1698085969785339,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-38",
+      "district_id": "senate-17",
+      "weight": 0.9705157439666593,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-38",
+      "district_id": "senate-18",
+      "weight": 0.029484256033344123,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-39",
+      "district_id": "senate-18",
+      "weight": 0.8653415578099327,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-39",
+      "district_id": "senate-19",
+      "weight": 0.12700958535164086,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-39",
+      "district_id": "senate-20",
+      "weight": 0.0076488568384256396,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-40",
+      "district_id": "senate-20",
+      "weight": 0.9999999999999998,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-41",
+      "district_id": "senate-20",
+      "weight": 0.21992800990091718,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-41",
+      "district_id": "senate-21",
+      "weight": 0.7426225920362305,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-41",
+      "district_id": "senate-22",
+      "weight": 0.03744939806285157,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-42",
+      "district_id": "senate-19",
+      "weight": 0.019482145546452948,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-42",
+      "district_id": "senate-20",
+      "weight": 0.027524943633089115,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-42",
+      "district_id": "senate-21",
+      "weight": 0.952992910820458,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-43",
+      "district_id": "senate-21",
+      "weight": 1.0000000000000002,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-44",
+      "district_id": "senate-21",
+      "weight": 0.04867588191413752,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-44",
+      "district_id": "senate-22",
+      "weight": 0.9513241180858614,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-45",
+      "district_id": "senate-22",
+      "weight": 0.9999999999999988,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-46",
+      "district_id": "senate-17",
+      "weight": 0.2324537104147481,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-46",
+      "district_id": "senate-18",
+      "weight": 0.01895752617877731,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-46",
+      "district_id": "senate-23",
+      "weight": 0.7485887634064774,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-47",
+      "district_id": "senate-23",
+      "weight": 1.0000000000000016,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-48",
+      "district_id": "senate-23",
+      "weight": 0.9607101904096366,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-48",
+      "district_id": "senate-24",
+      "weight": 0.039289809590364,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-49",
+      "district_id": "senate-23",
+      "weight": 0.04889291168668097,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-49",
+      "district_id": "senate-24",
+      "weight": 0.5340369878353497,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-49",
+      "district_id": "senate-25",
+      "weight": 0.41707010047796966,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-50",
+      "district_id": "senate-24",
+      "weight": 0.8112868631892097,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-50",
+      "district_id": "senate-25",
+      "weight": 0.18871313681079013,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    },
+    {
+      "source_geoid": "house-51",
+      "district_id": "senate-25",
+      "weight": 1.0,
+      "method": "area_weighted",
+      "justification": "Allocate polygon surface area itself; area density is exactly one square metre per square metre. No population or demographic allocation is made."
+    }
+  ],
+  "uncertainty": "Allocation adds model uncertainty not represented by a survey MOE. No precision claim.",
+  "indicator": "boundary_polygon_surface_area_m2",
+  "benchmark_max_relative_error": 1.9862873790867707e-12,
+  "limitation": "Demonstrates actual spatial intersection and conservation, not demographic apportionment."
+}

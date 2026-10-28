@@ -1,0 +1,457 @@
+[
+  {
+    "number": 1,
+    "question": "What percentage of adults 25+ have a bachelor's degree or higher here?",
+    "status": "passed_source_reconciliation",
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — Bachelor's degree or higher: 24.6%; 90% MOE ±2.2 percentage points. ACS 2020–2024. [s1]\n\nUniverse: Population 25 years and over.\n\nACS margins of error use a 90% confidence level and describe sampling uncertainty. A margin is not a guarantee about an individual resident. Percentage margins are percentage points. A difference between two estimates needs its own uncertainty analysis; the two published MOEs are not a significance test.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:house-30:dp02_r078_percent",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp02_r078_percent",
+          "label": "Bachelor's degree or higher",
+          "estimate": 24.6,
+          "moe": 2.2,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp02_r078_percent/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP02",
+          "estimate_cell": "DP78",
+          "moe_cell": "DQ78",
+          "raw_estimate": "24.6%",
+          "raw_moe": "±2.2",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Population 25 years and over",
+          "method": "reported_profile",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "get_observations"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "number": 2,
+    "question": "How many older adults live alone here?",
+    "status": "passed_source_reconciliation",
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — Adults 65+ living alone: 367 people; 90% MOE ±110.8 people. ACS 2020–2024. [s1]\n\nUniverse: People 65+ living in one-person households; excludes group quarters.\n\nCalculated from compatible source cells. MOE uses an approximation; covariance is unavailable. See provenance for inputs and formula.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:house-30:older_adults_living_alone",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "older_adults_living_alone",
+          "label": "Adults 65+ living alone",
+          "estimate": 367.0,
+          "moe": 110.78808600206071,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/older_adults_living_alone/provenance",
+          "workbook_url": null,
+          "workbook": null,
+          "sheet": null,
+          "estimate_cell": null,
+          "moe_cell": null,
+          "raw_estimate": null,
+          "raw_moe": null,
+          "workbook_sha256": null,
+          "universe": "People 65+ living in one-person households; excludes group quarters",
+          "method": "derived_sum",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "get_observations"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "number": 3,
+    "question": "How many households report SNAP receipt here?",
+    "status": "passed_source_reconciliation",
+    "answer": {
+      "message": "Here are the reported ACS estimates.\n\nHouse District 30 — Households reporting SNAP food benefits in the past 12 months: 1,660 households; 90% MOE ±293 households. ACS 2020–2024. [s1]\n\nUniverse: Households (occupied housing units); not individual residents.\n\nACS margins of error use a 90% confidence level and describe sampling uncertainty. A margin is not a guarantee about an individual resident. Percentage margins are percentage points. A difference between two estimates needs its own uncertainty analysis; the two published MOEs are not a significance test.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:house-30:dp03_r082_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r082_estimate",
+          "label": "Households reporting SNAP food benefits in the past 12 months",
+          "estimate": 1660.0,
+          "moe": 293.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r082_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN82",
+          "moe_cell": "DO82",
+          "raw_estimate": "1,660",
+          "raw_moe": "±293",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households (occupied housing units); not individual residents",
+          "method": "reported_profile",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "get_observations"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "number": 4,
+    "question": "Compare this district with the state on bachelor's degree or higher attainment.",
+    "status": "passed_source_reconciliation",
+    "answer": {
+      "message": "Here are the reported estimates and calculated comparisons.\n\nHouse District 30 — Bachelor's degree or higher: 24.6%; 90% MOE ±2.2 percentage points. ACS 2020–2024. [s17]\n\nUniverse: Population 25 years and over.\n\nHawaiʻi — Bachelor's degree or higher: 36.1%; 90% MOE ±0.4 percentage points. ACS 2020–2024. [s18]\n\nUniverse: Population 25 years and over.\n\nThe reported Bachelor's degree or higher estimate is higher in Hawaiʻi. This is a descriptive comparison of estimates.\n\nCalculated difference, House District 30 minus Hawaiʻi (Bachelor's degree or higher): -11.5 percentage points. Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated. [s17] [s18]\n\nDifferences are calculated from reported estimates and are descriptive. Overlapping survey estimates may not be independent; no statistical significance is claimed.\n\nOverlapping ACS estimates are not independent. Differences are descriptive; no significance claim.\n\n",
+      "citations": [
+        {
+          "ref": "s17",
+          "statistic_id": "research:house-30:dp02_r078_percent",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp02_r078_percent",
+          "label": "Bachelor's degree or higher",
+          "estimate": 24.6,
+          "moe": 2.2,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp02_r078_percent/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP02",
+          "estimate_cell": "DP78",
+          "moe_cell": "DQ78",
+          "raw_estimate": "24.6%",
+          "raw_moe": "±2.2",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Population 25 years and over",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s18",
+          "statistic_id": "research:state-15:dp02_r078_percent",
+          "geography_id": "state-15",
+          "geography": "Hawaiʻi",
+          "indicator": "dp02_r078_percent",
+          "label": "Bachelor's degree or higher",
+          "estimate": 36.1,
+          "moe": 0.4,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "state",
+          "boundary_vintage": null,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/state-15/dp02_r078_percent/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/state",
+          "workbook": "acs2024_5yr_state_hi.xlsx",
+          "sheet": "DP02",
+          "estimate_cell": "D78",
+          "moe_cell": "E78",
+          "raw_estimate": "36.1%",
+          "raw_moe": "±0.4",
+          "workbook_sha256": "2b055f3fa12889757981ce7db8ba07e22587133291c1e12a2f2f0a9437a3bcd6",
+          "universe": "Population 25 years and over",
+          "method": "reported_profile",
+          "variables": []
+        }
+      ],
+      "comparisons": [
+        {
+          "ref": "d9",
+          "left_ref": "s17",
+          "right_ref": "s18",
+          "difference": -11.5,
+          "unit": "percentage points",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        }
+      ],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "compare_benchmark",
+        "compare_observations"
+      ],
+      "warnings": [
+        "Overlapping ACS estimates are not independent. Differences are descriptive; no significance claim.",
+        ""
+      ],
+      "reference_period": "2020–2024"
+    }
+  },
+  {
+    "number": 5,
+    "question": "How many kupuna in my district live on fixed incomes?",
+    "status": "passed_source_reconciliation",
+    "answer": {
+      "message": "The exact requested measure is not established by these data. The following are related contextual measures, not a count of people or households meeting every requested condition.\n\nHouse District 30 — Households receiving Social Security income: 2,043 households; 90% MOE ±215 households. ACS 2020–2024. [s1]\n\nUniverse: Households (occupied housing units); not individual residents.\n\nHouse District 30 — Mean Social Security income among recipient households: $21,496; 90% MOE ±$2,275. ACS 2020–2024. [s2]\n\nUniverse: Households receiving Social Security income, all householder ages.\n\nHouse District 30 — Households receiving Supplemental Security Income (SSI): 587 households; 90% MOE ±150 households. ACS 2020–2024. [s3]\n\nUniverse: Households (occupied housing units); not individual residents.\n\nHouse District 30 — Mean SSI income among recipient households: $11,006; 90% MOE ±$1,637. ACS 2020–2024. [s4]\n\nUniverse: Households receiving Supplemental Security Income.\n\nHouse District 30 — Mean retirement income among recipient households: $27,748; 90% MOE ±$3,412. ACS 2020–2024. [s5]\n\nUniverse: Households receiving retirement income, all householder ages.\n\nHouse District 30 — Older adults 65+ below poverty: 13.6%; 90% MOE ±4.5 percentage points. ACS 2020–2024. [s6]\n\nUniverse: Population for whom poverty status is determined; not all residents; age 65+.\n\nSeparate age and household-income distributions do not report how many people meet both conditions. Household income brackets do not identify residents on fixed incomes. No combined subgroup count or individual-level inference is calculated.",
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:house-30:dp03_r074_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r074_estimate",
+          "label": "Households receiving Social Security income",
+          "estimate": 2043.0,
+          "moe": 215.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r074_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN74",
+          "moe_cell": "DO74",
+          "raw_estimate": "2,043",
+          "raw_moe": "±215",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households (occupied housing units); not individual residents",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "research:house-30:dp03_r075_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r075_estimate",
+          "label": "Mean Social Security income among recipient households",
+          "estimate": 21496.0,
+          "moe": 2275.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r075_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN75",
+          "moe_cell": "DO75",
+          "raw_estimate": "21,496",
+          "raw_moe": "±2,275",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households receiving Social Security income, all householder ages",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "research:house-30:dp03_r078_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r078_estimate",
+          "label": "Households receiving Supplemental Security Income (SSI)",
+          "estimate": 587.0,
+          "moe": 150.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r078_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN78",
+          "moe_cell": "DO78",
+          "raw_estimate": "587",
+          "raw_moe": "±150",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households (occupied housing units); not individual residents",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s4",
+          "statistic_id": "research:house-30:dp03_r079_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r079_estimate",
+          "label": "Mean SSI income among recipient households",
+          "estimate": 11006.0,
+          "moe": 1637.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r079_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN79",
+          "moe_cell": "DO79",
+          "raw_estimate": "11,006",
+          "raw_moe": "±1,637",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households receiving Supplemental Security Income",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s5",
+          "statistic_id": "research:house-30:dp03_r077_estimate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r077_estimate",
+          "label": "Mean retirement income among recipient households",
+          "estimate": 27748.0,
+          "moe": 3412.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r077_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN77",
+          "moe_cell": "DO77",
+          "raw_estimate": "27,748",
+          "raw_moe": "±3,412",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households receiving retirement income, all householder ages",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s6",
+          "statistic_id": "research:house-30:dp03_r145_percent",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "dp03_r145_percent",
+          "label": "Older adults 65+ below poverty",
+          "estimate": 13.6,
+          "moe": 4.5,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/dp03_r145_percent/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DP145",
+          "moe_cell": "DQ145",
+          "raw_estimate": "13.6%",
+          "raw_moe": "±4.5",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Population for whom poverty status is determined; not all residents; age 65+",
+          "method": "reported_profile",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "get_observations"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024"
+    }
+  }
+]

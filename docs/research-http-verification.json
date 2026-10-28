@@ -1,0 +1,17 @@
+{
+  "/healthz": {
+    "status": "ok",
+    "service": "districtiq-api",
+    "ai_configured": true
+  },
+  "/readyz": {
+    "status": "ready",
+    "database": "postgresql",
+    "postgis": true
+  },
+  "resolved_statistical_provenance_urls": 46,
+  "program_detail_urls": 16,
+  "dashboard_profile_fields_per_district": 46,
+  "benchmark_questions_checked": 30,
+  "frontend_status": 200
+}

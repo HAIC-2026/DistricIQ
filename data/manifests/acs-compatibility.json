@@ -1,0 +1,10 @@
+{
+  "status": "reviewed",
+  "state": "15",
+  "boundary_vintage": 2022,
+  "acs_geography_vintage": 2024,
+  "reference_period": "2020\u20132024",
+  "evidence_url": "https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes/2024/geography-changes.html",
+  "finding": "Hawai\u02bbi is not among the states with new 2024 legislative plans. Census documents no plan change from 2022 for other states. Validate district identifier coverage on every import.",
+  "limitation": "Plan compatibility is documented; no claim of vertex-for-vertex geometry identity."
+}

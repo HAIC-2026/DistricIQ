@@ -1,0 +1,48 @@
+{
+  "tests": {
+    "backend_unit": 93,
+    "database_integration": 8,
+    "frontend": 16,
+    "total": 117
+  },
+  "checks": {
+    "ruff": "passed",
+    "typescript": "passed",
+    "production_build": "passed"
+  },
+  "live_acceptance_cases": 10,
+  "browser": "Production chat, dashboard link, follow-ups, session restoration, district changes, comparisons, source expansion and responsive width verified.",
+  "/healthz": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "service": "districtiq-api",
+      "ai_configured": true
+    }
+  },
+  "/readyz": {
+    "status": 200,
+    "body": {
+      "status": "ready",
+      "database": "postgresql",
+      "postgis": true
+    }
+  },
+  "/v1/assistant/status": {
+    "status": 200,
+    "body": {
+      "configured": true,
+      "model": "gpt-4.1",
+      "reference_period": "2020–2024",
+      "history": "Session only; bounded history, no persistent chat database."
+    }
+  },
+  "frontend_status": 200,
+  "database": {
+    "migration": "0002",
+    "postgis": "3.5.2",
+    "districts": 76,
+    "statistics": 3772,
+    "original_observations": 44444
+  }
+}

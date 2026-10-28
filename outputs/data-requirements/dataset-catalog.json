@@ -1,0 +1,951 @@
+{
+  "study_date": "2026-10-26 (Hawaiʻi time)",
+  "status": "Research recommendations, not ingested datasets",
+  "datasets": [
+    {
+      "id": "B17001",
+      "dataset": "Poverty Status in the Past 12 Months by Sex by Age",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B17001",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B17001.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Population for whom poverty status is determined",
+      "capabilities": "Direct subgroup counts: children and people 65+ below poverty, plus matched poverty universes; closes the two null dashboard poverty fields.",
+      "priority": 1,
+      "questions": [
+        3,
+        10,
+        21,
+        25,
+        27,
+        30
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B17001/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B25070",
+      "dataset": "Gross Rent as a Percentage of Household Income in the Past 12 Months",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B25070",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25070.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25070.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Renter-occupied housing units paying cash rent",
+      "capabilities": "Separates the 50%+ rent-burden bin missing from DP04; preserves not-computed cases.",
+      "priority": 1,
+      "questions": [
+        8,
+        13,
+        16,
+        17,
+        26
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B25070/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B25007",
+      "dataset": "Tenure by Age of Householder",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B25007",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25007.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25007.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Occupied housing units",
+      "capabilities": "Owner/renter comparisons for households with a householder aged 65+, not all older people.",
+      "priority": 1,
+      "questions": [
+        4,
+        17,
+        25
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B25007/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B25011",
+      "dataset": "Tenure by Household Type (Including Living Alone) and Age of Householder",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B25011",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25011.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25011.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Occupied housing units",
+      "capabilities": "Genuine joint counts for older householders living alone by tenure; no Social Security dependence dimension.",
+      "priority": 1,
+      "questions": [
+        4,
+        6,
+        16,
+        25
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B25011/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B19037",
+      "dataset": "Age of Householder by Household Income in the Past 12 Months (in 2024 Inflation-Adjusted Dollars)",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B19037",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B19037.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B19037.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households",
+      "capabilities": "Income bands for households headed by an older adult; household income is not an individual pension or benefit.",
+      "priority": 1,
+      "questions": [
+        1,
+        7,
+        9,
+        25,
+        29
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B19037/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B25008",
+      "dataset": "Total Population in Occupied Housing Units by Tenure",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B25008",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25008.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25008.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Population in occupied housing units",
+      "capabilities": "Person-based tenure counts; resolves the difference between residents and households.",
+      "priority": 1,
+      "questions": [
+        14,
+        18
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B25008/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "S0103",
+      "dataset": "Population 65 Years and Over in the United States",
+      "agency": "U.S. Census Bureau",
+      "product": "subject",
+      "table": "S0103",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S0103.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S0103.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5/subject",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Multiple explicitly labeled universes: people 65+, civilian noninstitutionalized people, and households with householder 65+ among others",
+      "capabilities": "A coherent older-adult profile with income-source receipt for older-householder households; does not measure primary Social Security dependence.",
+      "priority": 1,
+      "questions": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        25,
+        28
+      ],
+      "proposed_storage": "data/raw/acs/2024/subject/S0103/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "S2201",
+      "dataset": "Food Stamps/Supplemental Nutrition Assistance Program (SNAP)",
+      "agency": "U.S. Census Bureau",
+      "product": "subject",
+      "table": "S2201",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2201.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S2201.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5/subject",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households, with table-specific subgroups and columns",
+      "capabilities": "SNAP receipt cross-tabulations, including households with a person 60+ and selected poverty/household characteristics; not eligibility.",
+      "priority": 1,
+      "questions": [
+        12,
+        25,
+        27,
+        29
+      ],
+      "proposed_storage": "data/raw/acs/2024/subject/S2201/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B19058",
+      "dataset": "Public Assistance Income or Food Stamps/SNAP in the Past 12 Months for Households",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B19058",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B19058.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B19058.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households",
+      "capabilities": "Reported union of cash public-assistance income or SNAP receipt, avoiding double-counting two overlapping totals; not all government assistance.",
+      "priority": 1,
+      "questions": [
+        12,
+        27
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B19058/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B25106",
+      "dataset": "Tenure by Housing Costs as a Percentage of Household Income in the Past 12 Months",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B25106",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25106.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B25106.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Occupied housing units",
+      "capabilities": "Genuine income-bracket × tenure × housing-cost-share cells, beyond separate income and burden totals.",
+      "priority": 1,
+      "questions": [
+        7,
+        8,
+        16,
+        17,
+        26
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B25106/",
+      "verification": "Official 2024 indexed group metadata and Census table title/labels verified; direct metadata fetch repeatedly timed out. Full cell/coverage QA still required.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B18101",
+      "dataset": "Sex by Age by Disability Status",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B18101",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B18101.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B18101.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Civilian noninstitutionalized population",
+      "capabilities": "Finer age/sex disability comparisons beyond coarse DP02 age bands; excludes institutionalized residents.",
+      "priority": 2,
+      "questions": [
+        25,
+        28,
+        30
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B18101/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B09021",
+      "dataset": "Living Arrangements of Adults 18 Years and Over by Age",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B09021",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B09021.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B09021.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Population 18 years and over in households",
+      "capabilities": "Living alone, spouse/partner and other arrangements by adult age; older-alone total already derivable from DP02.",
+      "priority": 2,
+      "questions": [
+        6,
+        25,
+        30
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B09021/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B17024",
+      "dataset": "Age by Ratio of Income to Poverty Level in the Past 12 Months",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B17024",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B17024.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B17024.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Population for whom poverty status is determined",
+      "capabilities": "Age-specific near-poverty ranges; ratios to Census poverty thresholds are not current program eligibility guidelines.",
+      "priority": 2,
+      "questions": [
+        7,
+        25,
+        27,
+        29
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B17024/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B22003",
+      "dataset": "Receipt of Food Stamps/SNAP in the Past 12 Months by Poverty Status in the Past 12 Months for Households",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B22003",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B22003.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B22003.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households",
+      "capabilities": "Poverty × SNAP receipt; cannot identify eligible nonparticipants.",
+      "priority": 2,
+      "questions": [
+        27,
+        29
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B22003/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B22001",
+      "dataset": "Receipt of Food Stamps/SNAP in the Past 12 Months by Presence of People 60 Years and Over for Households",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B22001",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B22001.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B22001.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households",
+      "capabilities": "Compact alternative to S2201 for the older-presence × SNAP question; acquire instead of duplicate cells when S2201 suffices.",
+      "priority": 2,
+      "questions": [
+        25,
+        27
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B22001/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "S1002",
+      "dataset": "Grandparents",
+      "agency": "U.S. Census Bureau",
+      "product": "subject",
+      "table": "S1002",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S1002.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/subject/groups/S1002.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5/subject",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Grandparents living with own grandchildren under 18, with table-specific responsible-grandparent subgroups",
+      "capabilities": "Caregiver characteristics and poverty/context; responsible-grandparent total already in DP02.",
+      "priority": 2,
+      "questions": [
+        23,
+        25
+      ],
+      "proposed_storage": "data/raw/acs/2024/subject/S1002/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B27001",
+      "dataset": "Health Insurance Coverage Status by Sex by Age",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B27001",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B27001.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B27001.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Civilian noninstitutionalized population",
+      "capabilities": "Age/sex uninsured subgroups beyond the overall insurance information already in DP03; insurance is not healthcare access or eligibility.",
+      "priority": 2,
+      "questions": [
+        25,
+        28,
+        30
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B27001/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "B28004",
+      "dataset": "Household Income in the Last 12 Months (in 2024 Inflation-Adjusted Dollars) by Presence and Type of Internet Subscription in Household",
+      "agency": "U.S. Census Bureau",
+      "product": "detailed",
+      "table": "B28004",
+      "metadata_url": "https://api.census.gov/data/2024/acs/acs5/groups/B28004.html",
+      "metadata_json_url": "https://api.census.gov/data/2024/acs/acs5/groups/B28004.json",
+      "api_base": "https://api.census.gov/data/2024/acs/acs5",
+      "download_location": "https://data.census.gov/",
+      "geography_class": [
+        1,
+        3,
+        4
+      ],
+      "geography": "2024 published state legislative upper/lower districts, counties, state; 2022 Hawaiʻi plan compatibility documented. Verify all 76 IDs and each cell on acquisition.",
+      "reference_period": "2020–2024",
+      "release_year": 2024,
+      "format": "Census API JSON or data.census.gov CSV + metadata",
+      "universe": "Households",
+      "capabilities": "Genuine income × internet-subscription cross-tab for low-income digital-access barriers; no broadband speed or network-service availability claim.",
+      "priority": 2,
+      "questions": [
+        30
+      ],
+      "proposed_storage": "data/raw/acs/2024/detailed/B28004/",
+      "verification": "Official 2024 group metadata verified; full Hawaiʻi district cell coverage awaits acquisition QA",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no statistical data acquired in this study"
+    },
+    {
+      "id": "DBEDT-SSIS-2024",
+      "dataset": "Self-Sufficiency Income Standard Estimates for the State of Hawaiʻi and Counties for 2024",
+      "agency": "Hawaiʻi DBEDT READ",
+      "metadata_url": "https://files.hawaii.gov/dbedt/economic/reports/self-sufficiency/self-sufficiency_2024.pdf",
+      "geography": "State and four reported county family-budget areas; not legislative districts",
+      "geography_class": [
+        3,
+        4
+      ],
+      "reference_period": "2024 budgets; December 2025 publication",
+      "format": "PDF, tables I.A and IV.A–E",
+      "capabilities": "A Hawaiʻi-specific basic-needs benchmark by family composition; cannot count district families below it from marginal income totals.",
+      "priority": 2,
+      "proposed_storage": "data/raw/dbedt/self-sufficiency/2024/",
+      "verification": "PDF and table of contents verified. Former landing page redirects to archived content; use the official PDF and reports archive.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "HUD-IL-2026",
+      "dataset": "FY 2026 Income Limits",
+      "agency": "HUD",
+      "metadata_url": "https://www.huduser.gov/portal/datasets/il.html",
+      "geography": "HUD income-limit areas/counties and household size; rules, not resident counts",
+      "geography_class": [
+        3,
+        5
+      ],
+      "reference_period": "FY2026, effective May 1, 2026; program-specific exceptions",
+      "format": "Official tables, spreadsheets and API options",
+      "capabilities": "County/household-size income thresholds for a versioned housing-program rules catalog.",
+      "priority": 2,
+      "proposed_storage": "data/raw/programs/hud/income-limits/fy2026/",
+      "verification": "Official current landing page/effective date verified; acquire Hawaiʻi rows and relevant program notice, not a generic national percentage.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "HUD-FMR-2027",
+      "dataset": "FY 2027 Fair Market Rents",
+      "agency": "HUD",
+      "metadata_url": "https://www.huduser.gov/portal/datasets/fmr.html",
+      "geography": "FMR areas/counties; selected SAFMR ZIP areas are a different product",
+      "geography_class": [
+        3,
+        5
+      ],
+      "reference_period": "FY2027; check areas retaining FY2026 after reevaluation",
+      "format": "Tables and downloadable data",
+      "capabilities": "Housing-program payment-standard context by bedroom count, not the district median rent or a guarantee of subsidy.",
+      "priority": 2,
+      "proposed_storage": "data/raw/hud/fmr/fy2027/",
+      "verification": "Current FY2027 landing page verified; area-level effective exceptions require acquisition QA.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "HHFDC-INVENTORY-2026",
+      "dataset": "Statewide Affordable Housing Inventory List",
+      "agency": "Hawaiʻi HHFDC",
+      "metadata_url": "https://dbedt.hawaii.gov/hhfdc/affordable-rental-housing-inventory/",
+      "geography": "Property addresses/points, statewide; assign physical locations to existing district polygons",
+      "geography_class": [
+        5
+      ],
+      "reference_period": "Updated June 10, 2026",
+      "format": "HTML table and locator map",
+      "capabilities": "Find affordable properties near constituents, with population type, units and management contact.",
+      "priority": 2,
+      "proposed_storage": "data/raw/facilities/hhfdc/2026-06-10/",
+      "verification": "Live page/date verified. Inventory is not vacancies, waitlist availability, eligibility or count of district residents served.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "DHS-DATABOOK-2025",
+      "dataset": "DHS Databook 2025",
+      "agency": "Hawaiʻi DHS",
+      "metadata_url": "https://humanservices.hawaii.gov/wp-content/uploads/2026/03/DHS-Databook-2025.pdf",
+      "geography": "Statewide program series; selected county context. Reviewed publication has no legislative-district tables",
+      "geography_class": [
+        3,
+        4
+      ],
+      "reference_period": "SFY2014–2025 and other explicitly dated series; publication December 2025",
+      "format": "PDF",
+      "capabilities": "Administrative benefit/participation context for financial assistance, SNAP, Medicaid and other DHS services; distinguish survey tables.",
+      "priority": 2,
+      "proposed_storage": "data/raw/administrative/dhs/databook-2025/",
+      "verification": "31-page official PDF verified. County poverty and unemployment tables are secondary statistical context, not necessarily county program enrollment.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "MQ-ENROLLMENT",
+      "dataset": "Med-QUEST Application and Enrollment Data",
+      "agency": "Hawaiʻi DHS Med-QUEST",
+      "metadata_url": "https://medquest.hawaii.gov/posts/med-quest-application-and-enrollment-data",
+      "geography": "Published administrative reporting areas; district breakdown not verified",
+      "geography_class": [
+        4,
+        5
+      ],
+      "reference_period": "Page June 22, 2026; linked data update June 8, 2026",
+      "format": "Linked reports/data",
+      "capabilities": "Actual Medicaid application/enrollment context; retain reporting unit, period and coverage definition.",
+      "priority": 2,
+      "proposed_storage": "data/raw/administrative/medquest/2026-06/",
+      "verification": "Official landing page verified; exact geography and machine-readable attachment schema must be checked before ingesting. Do not promise SLD records.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "SSA-HI-2025",
+      "dataset": "OASDI Beneficiaries by State and Congressional District: Hawaiʻi",
+      "agency": "SSA",
+      "metadata_url": "https://www.ssa.gov/policy/docs/factsheets/cong_stats/2025/hi.html",
+      "geography": "State and U.S. congressional districts, not Hawaiʻi state House/Senate districts",
+      "geography_class": [
+        4,
+        5
+      ],
+      "reference_period": "2025 edition",
+      "format": "HTML tables",
+      "capabilities": "Administrative Social Security beneficiaries/payment context, separate from ACS household receipt.",
+      "priority": 2,
+      "proposed_storage": "data/raw/administrative/ssa/2025/",
+      "verification": "Official publication identified. U.S. congressional districts 1/2 cannot be relabeled as state legislative districts.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "LAUS-HI",
+      "dataset": "Local Area Unemployment Statistics",
+      "agency": "DBEDT labor statistics / BLS federal-state program",
+      "metadata_url": "https://dbedt.hawaii.gov/economic/labor/",
+      "geography": "State, counties and islands; selected seasonally adjusted series",
+      "geography_class": [
+        3,
+        4,
+        5
+      ],
+      "reference_period": "Monthly/annual time series; freeze exact release on acquisition",
+      "format": "Linked tables/data warehouse",
+      "capabilities": "Timely county/state labor trends beyond a five-year ACS snapshot; jobs-at-workplace series remain separate.",
+      "priority": 2,
+      "proposed_storage": "data/raw/labor/laus/<release>/",
+      "verification": "Official labor catalog verifies geographic coverage; exact selected release file has not been acquired.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "PEP-HI",
+      "dataset": "Annual population estimates",
+      "agency": "Hawaiʻi DBEDT State Data Center / Census PEP",
+      "metadata_url": "https://census.hawaii.gov/population-estimate/",
+      "geography": "State/county, with age/sex products where published",
+      "geography_class": [
+        3,
+        4
+      ],
+      "reference_period": "Annual; select a consistent latest vintage, including July 1, 2025 estimates where published",
+      "format": "Official tables",
+      "capabilities": "Current county/state demographic trends; not district annual population estimates.",
+      "priority": 2,
+      "proposed_storage": "data/raw/population/pep/<vintage>/",
+      "verification": "Official source identified; exact file selection and consistent-vintage series QA deferred.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "COUNTIES-GIS",
+      "dataset": "Counties",
+      "agency": "Hawaiʻi Statewide GIS",
+      "metadata_url": "https://geodata.hawaii.gov/arcgis/rest/services/Census/MapServer/29",
+      "geography": "County polygons",
+      "geography_class": [
+        3
+      ],
+      "reference_period": "Layer metadata must be frozen on acquisition",
+      "format": "ArcGIS REST JSON/GeoJSON",
+      "capabilities": "Document county intersections, particularly Maui/Kalawao, without assigning all multi-county districts to one county.",
+      "priority": 2,
+      "proposed_storage": "data/raw/geography/counties/",
+      "verification": "Live service metadata verified; CRS and county GEOIDs must be validated before spatial use.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "SCHOOLS-GIS",
+      "dataset": "Public schools",
+      "agency": "Hawaiʻi DOE / Statewide GIS",
+      "metadata_url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/7",
+      "geography": "School points",
+      "geography_class": [
+        5
+      ],
+      "reference_period": "As of November 2024 in layer description",
+      "format": "ArcGIS REST JSON/GeoJSON",
+      "capabilities": "Locate schools in districts; school performance/student enrollment are not resident-district statistics.",
+      "priority": 2,
+      "proposed_storage": "data/raw/facilities/schools/2024-11/",
+      "verification": "Live layer metadata verified; school codes enable joining DOE school reports after separate vintage checks.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "HOSPITALS-GIS",
+      "dataset": "Hospitals",
+      "agency": "Hawaiʻi DOH OHCA / Statewide GIS",
+      "metadata_url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/5",
+      "geography": "Facility points",
+      "geography_class": [
+        5
+      ],
+      "reference_period": "As of September 15, 2026 in layer description",
+      "format": "ArcGIS REST JSON/GeoJSON",
+      "capabilities": "Locate hospitals and published facility capacity; geography of a facility is not its catchment or patient residence.",
+      "priority": 2,
+      "proposed_storage": "data/raw/facilities/hospitals/2026-09-15/",
+      "verification": "Live layer metadata verified. License/capacity/status fields need feature-level QA.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "HUD-CHAS",
+      "dataset": "Comprehensive Housing Affordability Strategy data",
+      "agency": "HUD",
+      "metadata_url": "https://www.huduser.gov/portal/datasets/cp.html",
+      "geography": "State/county/place and smaller-area download products; no direct 2022 Hawaiʻi SLD series verified",
+      "geography_class": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "reference_period": "2018–2022 release dated December 23, 2025 on reviewed page",
+      "format": "Downloads / token-authenticated API",
+      "capabilities": "HUD-adjusted income bands × tenure × housing problems; richer affordable-housing need context.",
+      "priority": 3,
+      "proposed_storage": "data/raw/hud/chas/2018-2022/",
+      "verification": "Official release page verified. Does not share the existing 2020–2024 period; tabulation/disclosure rules and geography must be inspected before allocation.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "TRACTS-GIS",
+      "dataset": "2020 census tracts",
+      "agency": "Hawaiʻi Statewide GIS",
+      "metadata_url": "https://geodata.hawaii.gov/arcgis/rest/services/Census/MapServer/31",
+      "geography": "Tract polygons clipped to coastline",
+      "geography_class": [
+        2
+      ],
+      "reference_period": "2020 geography; 2023 label corrections noted",
+      "format": "ArcGIS REST JSON/GeoJSON",
+      "capabilities": "Only for a specific tract-only statistic or service-access analysis, not needed for direct ACS SLD tables.",
+      "priority": 3,
+      "proposed_storage": "data/raw/geography/tracts/2020/",
+      "verification": "Live metadata verified, EPSG3750 service; use full GEOID, not duplicated/corrected tract display names.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "BG-GIS",
+      "dataset": "2020 census block groups",
+      "agency": "Hawaiʻi Statewide GIS",
+      "metadata_url": "https://geodata.hawaii.gov/arcgis/rest/services/Census/MapServer/26",
+      "geography": "Block-group polygons clipped to coastline",
+      "geography_class": [
+        2
+      ],
+      "reference_period": "2020 geography",
+      "format": "ArcGIS REST JSON/GeoJSON",
+      "capabilities": "Smaller-area source geometry for an explicitly approved housing/person allocation model.",
+      "priority": 3,
+      "proposed_storage": "data/raw/geography/block-groups/2020/",
+      "verification": "Live metadata verified, EPSG3750 service. Fine polygons do not cure sampling error or ecological bias.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "ACS-PUMS",
+      "dataset": "ACS five-year Public Use Microdata Sample",
+      "agency": "Census",
+      "metadata_url": "https://www.census.gov/programs-surveys/acs/microdata.html",
+      "geography": "State and PUMA are the finest usable identified geographies; no state legislative districts",
+      "geography_class": [
+        4,
+        5
+      ],
+      "reference_period": "Use a documented five-year release and consistent PUMA definitions",
+      "format": "Person/housing CSV, dictionaries and replicate weights",
+      "capabilities": "Custom joint age/living-arrangement/tenure/income analysis at state/PUMA level only.",
+      "priority": 3,
+      "proposed_storage": "data/raw/census/pums/<release>/",
+      "verification": "Official microdata/PUMA documentation verified; cannot support district counts or individual eligibility. Exact file/version deferred.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "DOH-BRFSS",
+      "dataset": "Hawaiʻi BRFSS / Hawaiʻi Health Data Warehouse",
+      "agency": "Hawaiʻi DOH",
+      "metadata_url": "https://health.hawaii.gov/brfss/data-access-and-query-system/",
+      "geography": "State/county and any specifically documented report geographies; no 2022 SLD coverage verified",
+      "geography_class": [
+        3,
+        4,
+        5
+      ],
+      "reference_period": "Varies by measure and pooled period",
+      "format": "HHDW reports; restricted files require agreement",
+      "capabilities": "Community health context beyond ACS disability/insurance; sample size and confidentiality may preclude subgroups.",
+      "priority": 3,
+      "proposed_storage": "data/raw/health/brfss/<release>/",
+      "verification": "Official access page verified. Do not interpret unavailable district tabulations as district measured prevalence.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "CDC-PLACES",
+      "dataset": "PLACES small-area health estimates",
+      "agency": "CDC",
+      "metadata_url": "https://www.cdc.gov/places/methodology/",
+      "geography": "County, place, tract and ZCTA; not direct legislative districts",
+      "geography_class": [
+        2,
+        3,
+        5
+      ],
+      "reference_period": "Release-specific BRFSS/ACS input years; exact release not selected",
+      "format": "Data portal downloads / API",
+      "capabilities": "Optional modeled chronic-disease context with 95% intervals and explicit spatial-model caveats.",
+      "priority": 3,
+      "proposed_storage": "data/raw/health/places/<release>/",
+      "verification": "Official method verified; no exact release file recommended until use case and district estimation method approved.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    },
+    {
+      "id": "CENSUS2020-CD118-HI",
+      "dataset": "2020 Census 118th Congressional District Summary File, Hawaiʻi (includes 2022 SLDs)",
+      "agency": "Census",
+      "metadata_url": "https://www2.census.gov/programs-surveys/decennial/2020/data/118th-congressional-district-summary-file/Hawaii/",
+      "geography": "2022 House/Senate districts, with select related geographies",
+      "geography_class": [
+        1,
+        5
+      ],
+      "reference_period": "April 1, 2020 Census counts; release August 31, 2023",
+      "format": "Verified directory lists hi2020.cd18.zip (about14 MB), summary files plus technical documentation",
+      "capabilities": "Population/household/housing baseline on the 2022 plan without inventing a historical district-ID crosswalk. Compare measurement concepts carefully with ACS period estimates.",
+      "priority": 2,
+      "proposed_storage": "data/raw/census/2020/cd118/hawaii/",
+      "verification": "Official Hawaiʻi directory/file listing and Census retabulation description verified; ZIP not downloaded. Exact needed table selection awaits use case; no income/poverty from decennial Census.",
+      "already_imported": false,
+      "acquisition_status": "Recommended only; no ingestion"
+    }
+  ]
+}

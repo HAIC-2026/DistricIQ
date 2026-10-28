@@ -1,0 +1,60 @@
+{
+  "database": "isolated temporary database",
+  "steps": [
+    {
+      "step": "migrations",
+      "exit_code": 0
+    },
+    {
+      "step": "cached boundaries and profiles",
+      "exit_code": 0
+    },
+    {
+      "step": "B17001",
+      "exit_code": 0
+    },
+    {
+      "step": "B25070",
+      "exit_code": 0
+    },
+    {
+      "step": "B25007",
+      "exit_code": 0
+    },
+    {
+      "step": "B25011",
+      "exit_code": 0
+    },
+    {
+      "step": "B19037",
+      "exit_code": 0
+    },
+    {
+      "step": "program directory",
+      "exit_code": 0
+    },
+    {
+      "step": "all backend tests",
+      "exit_code": 0,
+      "summary": [
+        "152 passed, 1 warning in 20.02s ========================"
+      ]
+    },
+    {
+      "step": "geometry validation",
+      "exit_code": 0
+    },
+    {
+      "step": "statistics validation",
+      "exit_code": 0
+    }
+  ],
+  "inventory": {
+    "districts": 76,
+    "observations": 44444,
+    "statistics": 20910,
+    "programs": 16,
+    "migration": "0003"
+  },
+  "status": "passed"
+}

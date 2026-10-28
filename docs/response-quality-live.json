@@ -1,0 +1,613 @@
+[
+  {
+    "scenario": "exact",
+    "question": "What is the population here?",
+    "district": "house-30",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "The estimate for **total population** in **House District 30** is **34,283 people** (±1,935). [s4]\n\nSource: **American Community Survey, 2020–2024**. ± shows the available 90% margin of error. Linked references and full statistical definitions are below.",
+      "methodology": [],
+      "citations": [
+        {
+          "ref": "s4",
+          "statistic_id": "acs2024-house-30-population",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "population",
+          "label": "Total population",
+          "estimate": 34283.0,
+          "moe": 1935.0,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-population/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP05",
+          "estimate_cell": "DN4",
+          "moe_cell": "DO4",
+          "raw_estimate": "34,283",
+          "raw_moe": "±1,935",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Total resident population",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP05!DN4"
+          ]
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_district_profile"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "directly_answerable"
+    }
+  },
+  {
+    "scenario": "related",
+    "question": "How many kupuna in my district live on fixed incomes?",
+    "district": "senate-15",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "An exact count of residents who depend primarily on fixed or benefit income in **Senate District 15** isn't available in the current data. These related indicators can help describe the financial context.\n\n**Key findings**\n\n- People 65+ below poverty: **897 people** (±164.3) (calculated). [s1]\n- Households receiving Social Security income: **6,331 households** (±385). [s2]\n- Households receiving Supplemental Security Income (SSI): **951 households** (±189). [s3]\n\n**What this means**\n\nIncome-source figures help frame research on financial security and relevant services. Receiving a benefit doesn't establish that it is someone's main income. Household totals include all ages, not individual older residents.\n\nSeparate figures can't establish a combined count of residents meeting all the requested conditions.\n\nCalculated figures combine compatible source cells. Their margins of error are approximate because covariance is unavailable; source details show the inputs and formula.\n\nSource: **American Community Survey, 2020–2024**. ± shows the available 90% margin of error. Linked references and full statistical definitions are below.",
+      "methodology": [],
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:senate-15:older_poverty_count",
+          "geography_id": "senate-15",
+          "geography": "Senate District 15",
+          "indicator": "older_poverty_count",
+          "label": "People 65+ below poverty",
+          "estimate": 897.0,
+          "moe": 164.27111736394806,
+          "unit": "people",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "senate",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-detailed-B17001",
+            "title": "2024 ACS five-year B17001: Poverty Status in the Past 12 Months by Sex by Age",
+            "url": "https://api.census.gov/data/2024/acs/acs5/groups/B17001.html"
+          },
+          "provenance_url": "/v1/research/observations/senate-15/older_poverty_count/provenance",
+          "workbook_url": null,
+          "workbook": null,
+          "sheet": null,
+          "estimate_cell": null,
+          "moe_cell": null,
+          "raw_estimate": null,
+          "raw_moe": null,
+          "workbook_sha256": null,
+          "universe": "Population for whom poverty status is determined; age 65+",
+          "method": "derived_sum",
+          "variables": []
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "research:senate-15:dp03_r074_estimate",
+          "geography_id": "senate-15",
+          "geography": "Senate District 15",
+          "indicator": "dp03_r074_estimate",
+          "label": "Households receiving Social Security income",
+          "estimate": 6331.0,
+          "moe": 385.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "senate",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/senate-15/dp03_r074_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/senate",
+          "workbook": "acs2024_5yr_senate_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "BF74",
+          "moe_cell": "BG74",
+          "raw_estimate": "6,331",
+          "raw_moe": "±385",
+          "workbook_sha256": "84b7ee598ac2dd722f035ab82258167002189008300a86d1750538ae00c5552b",
+          "universe": "Households (occupied housing units); not individual residents",
+          "method": "reported_profile",
+          "variables": []
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "research:senate-15:dp03_r078_estimate",
+          "geography_id": "senate-15",
+          "geography": "Senate District 15",
+          "indicator": "dp03_r078_estimate",
+          "label": "Households receiving Supplemental Security Income (SSI)",
+          "estimate": 951.0,
+          "moe": 189.0,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "senate",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/research/observations/senate-15/dp03_r078_estimate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/senate",
+          "workbook": "acs2024_5yr_senate_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "BF78",
+          "moe_cell": "BG78",
+          "raw_estimate": "951",
+          "raw_moe": "±189",
+          "workbook_sha256": "84b7ee598ac2dd722f035ab82258167002189008300a86d1750538ae00c5552b",
+          "universe": "Households (occupied housing units); not individual residents",
+          "method": "reported_profile",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "senate-15",
+      "tools_used": [
+        "search_indicators",
+        "get_observations",
+        "search_indicators",
+        "get_district_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "partially_answerable"
+    }
+  },
+  {
+    "scenario": "universe",
+    "question": "Are older residents in my district more likely to rent or own their homes?",
+    "district": "house-30",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "The available data describe households rather than individual residents. Here's the closest household-based evidence in **House District 30**.\n\n**Key findings**\n\n- Owner households with householder 65+: **815 households** (±177.7) (calculated). [s1]\n- Renter households with householder 65+: **774 households** (±156.2) (calculated). [s2]\n\nAmong households with a householder age 65 or older, the reported **owner-occupied household** estimate is higher. This is a descriptive comparison, without a statistical significance test. [s1] [s2]\n\nThese figures count households, families or housing units, not individual residents. Tenure by age refers to the householder's age, not the age of everyone living there.\n\nCalculated figures combine compatible source cells. Their margins of error are approximate because covariance is unavailable; source details show the inputs and formula.\n\nSource: **American Community Survey, 2020–2024**. ± shows the available 90% margin of error. Linked references and full statistical definitions are below.",
+      "methodology": [],
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "research:house-30:older_owner_households",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "older_owner_households",
+          "label": "Owner households with householder 65+",
+          "estimate": 815.0,
+          "moe": 177.67667263881322,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-detailed-B25007",
+            "title": "2024 ACS five-year B25007: Tenure by Age of Householder",
+            "url": "https://api.census.gov/data/2024/acs/acs5/groups/B25007.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/older_owner_households/provenance",
+          "workbook_url": null,
+          "workbook": null,
+          "sheet": null,
+          "estimate_cell": null,
+          "moe_cell": null,
+          "raw_estimate": null,
+          "raw_moe": null,
+          "workbook_sha256": null,
+          "universe": "Occupied households with householder 65+; not all individual residents age 65+",
+          "method": "derived_sum",
+          "variables": []
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "research:house-30:older_renter_households",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "older_renter_households",
+          "label": "Renter households with householder 65+",
+          "estimate": 774.0,
+          "moe": 156.17298101784445,
+          "unit": "households",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-detailed-B25007",
+            "title": "2024 ACS five-year B25007: Tenure by Age of Householder",
+            "url": "https://api.census.gov/data/2024/acs/acs5/groups/B25007.html"
+          },
+          "provenance_url": "/v1/research/observations/house-30/older_renter_households/provenance",
+          "workbook_url": null,
+          "workbook": null,
+          "sheet": null,
+          "estimate_cell": null,
+          "moe_cell": null,
+          "raw_estimate": null,
+          "raw_moe": null,
+          "workbook_sha256": null,
+          "universe": "Occupied households with householder 65+; not all individual residents age 65+",
+          "method": "derived_sum",
+          "variables": []
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "search_indicators",
+        "search_indicators",
+        "get_district_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "partially_answerable"
+    }
+  },
+  {
+    "scenario": "comparison",
+    "question": "Compare House Districts 30 and 31 on poverty rate and median household income.",
+    "district": "house-30",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "| Measure | House District 30 | House District 31 | Difference (first − second) |\n| --- | --- | --- | --- |\n| Median household income | **$90,180** (±$9,512) [s1] | **$93,309** (±$5,152) [s3] | -$3,129 |\n| Poverty rate | **9.8%** (±2.6 percentage points) [s2] | **10.1%** (±2.2 percentage points) [s4] | -0.3 percentage points |\n\nDifferences are calculated from the reported estimates. They are descriptive; this comparison does not test statistical significance.\n\nSource: **American Community Survey, 2020–2024**. ± shows the available 90% margin of error. Linked references and full statistical definitions are below.",
+      "methodology": [
+        "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated.",
+        "Comparisons are descriptive. Overlapping ACS estimates may not be independent; no statistical significance is asserted."
+      ],
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-median_household_income",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 90180.0,
+          "moe": 9512.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN70",
+          "moe_cell": "DO70",
+          "raw_estimate": "90,180",
+          "raw_moe": "±9,512",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households; annual income in 2024 inflation-adjusted dollars",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP03!DN70"
+          ]
+        },
+        {
+          "ref": "s2",
+          "statistic_id": "acs2024-house-30-poverty_rate",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 9.8,
+          "moe": 2.6,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DP138",
+          "moe_cell": "DQ138",
+          "raw_estimate": "9.8%",
+          "raw_moe": "±2.6",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Population for whom poverty status is determined; not all residents",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP03!DP138"
+          ]
+        },
+        {
+          "ref": "s3",
+          "statistic_id": "acs2024-house-31-median_household_income",
+          "geography_id": "house-31",
+          "geography": "House District 31",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 93309.0,
+          "moe": 5152.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-31-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DR70",
+          "moe_cell": "DS70",
+          "raw_estimate": "93,309",
+          "raw_moe": "±5,152",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households; annual income in 2024 inflation-adjusted dollars",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP03!DR70"
+          ]
+        },
+        {
+          "ref": "s4",
+          "statistic_id": "acs2024-house-31-poverty_rate",
+          "geography_id": "house-31",
+          "geography": "House District 31",
+          "indicator": "poverty_rate",
+          "label": "All people whose income in the past 12 months is below the poverty level",
+          "estimate": 10.1,
+          "moe": 2.2,
+          "unit": "percent",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-31-poverty_rate/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DT138",
+          "moe_cell": "DU138",
+          "raw_estimate": "10.1%",
+          "raw_moe": "±2.2",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Population for whom poverty status is determined; not all residents",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP03!DT138"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "ref": "d1",
+          "left_ref": "s1",
+          "right_ref": "s3",
+          "difference": -3129.0,
+          "unit": "USD",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        },
+        {
+          "ref": "d2",
+          "left_ref": "s2",
+          "right_ref": "s4",
+          "difference": -0.3,
+          "unit": "percentage points",
+          "method": "Calculated left estimate minus right estimate; not a reported ACS estimate. No difference MOE or significance test calculated."
+        }
+      ],
+      "district_id": "house-30",
+      "tools_used": [
+        "search_indicators",
+        "search_indicators",
+        "compare_districts"
+      ],
+      "warnings": [
+        "Comparisons are descriptive. Overlapping ACS estimates may not be independent; no statistical significance is asserted."
+      ],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "supported_calculation"
+    }
+  },
+  {
+    "scenario": "uncertainty",
+    "question": "Explain the margin of error for median household income here.",
+    "district": "house-30",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "The estimate for **median household income** in **House District 30** is **$90,180** (±$9,512). [s1]\n\nA margin of error describes sampling uncertainty at the 90% confidence level. For a percentage, the margin is in percentage points. It does not describe an individual resident or, by itself, establish a meaningful difference between districts.\n\nSource: **American Community Survey, 2020–2024**. ± shows the available 90% margin of error. Linked references and full statistical definitions are below.",
+      "methodology": [],
+      "citations": [
+        {
+          "ref": "s1",
+          "statistic_id": "acs2024-house-30-median_household_income",
+          "geography_id": "house-30",
+          "geography": "House District 30",
+          "indicator": "median_household_income",
+          "label": "Median household income (dollars)",
+          "estimate": 90180.0,
+          "moe": 9512.0,
+          "unit": "USD",
+          "reference_period": "2020–2024",
+          "status": "available",
+          "geographic_level": "house",
+          "boundary_vintage": 2022,
+          "source": {
+            "id": "acs-2024-5yr",
+            "title": "2024 ACS five-year DP02–DP05 profiles (2020–2024)",
+            "url": "https://www.census.gov/programs-surveys/acs/data.html"
+          },
+          "provenance_url": "/v1/statistics/acs2024-house-30-median_household_income/provenance",
+          "workbook_url": "/v1/sources/acs-2024-5yr/workbooks/house",
+          "workbook": "acs2024_5yr_house_hi.xlsx",
+          "sheet": "DP03",
+          "estimate_cell": "DN70",
+          "moe_cell": "DO70",
+          "raw_estimate": "90,180",
+          "raw_moe": "±9,512",
+          "workbook_sha256": "2e090640d69e4418fd95690f2fb870be311cc82381642d302c55505772115c4e",
+          "universe": "Households; annual income in 2024 inflation-adjusted dollars",
+          "method": "direct_profile_workbook",
+          "variables": [
+            "DP03!DN70"
+          ]
+        }
+      ],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "get_district_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "directly_answerable"
+    }
+  },
+  {
+    "scenario": "programs",
+    "question": "Which official programs support older adults with limited retirement income?",
+    "district": "senate-15",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "These official programs may be relevant. The directory can guide further research; it doesn't determine whether someone qualifies.\n\nDistrict demographics can help identify relevant programs, but cannot establish individual eligibility. The agency must check current household, income, resource, residency and any age or disability requirements, as well as availability.\n\n- **[Supplemental Security Income (SSI)](https://www.ssa.gov/ssi/text-eligibility-ussi.htm)** — Means-tested cash support. Limited countable income/resources; individual/couple unit, deeming/exclusions; U.S. residence and citizenship/qualified-status rules. 2026 general resource limits $2,000/$3,000; payment maximum is not an income cutoff. Application status: Application/appointment routes available; not a benefit guarantee.\n\n- **[Medicare Part D Extra Help](https://www.ssa.gov/medicare/part-d-extra-help)** — Reduces prescription-drug coverage costs. Individual/spouse finances and countable-resource exclusions, Medicare/PartD status and applicable annual limits. Hawaiʻi income standard must be used. Application status: SSA states application can be made any time before/after PartD enrollment. Direct form redirected to a service message during research.\n\n- **[Older Americans Act / EOA home and community services](https://health.hawaii.gov/eoa/home/home-and-community-services/)** — Nutrition, transport, personal care, case management and related supports. Service-specific assessment and county residence; not a universal cash-income entitlement. Household size/income may affect prioritization rather than categorical eligibility. Application status: County intake/referral; service capacity and waiting lists require confirmation.\n\nProgram sources were last checked **2026-10-26**. Eligibility rules in this directory remain incomplete; use the official links and confirm current requirements and application availability with the agency.",
+      "methodology": [],
+      "citations": [],
+      "comparisons": [],
+      "district_id": null,
+      "tools_used": [
+        "search_programs"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [
+        {
+          "id": "ssi",
+          "name": "Supplemental Security Income (SSI)",
+          "administering_agency": "Social Security Administration",
+          "classification": "Federal",
+          "purpose_benefits": "Means-tested cash support.",
+          "intended_population": "People 65+, or blind/disabled adults and eligible children.",
+          "age_income_household_residency_disability_rules": "Limited countable income/resources; individual/couple unit, deeming/exclusions; U.S. residence and citizenship/qualified-status rules. 2026 general resource limits $2,000/$3,000; payment maximum is not an income cutoff.",
+          "eligibility_url": "https://www.ssa.gov/ssi/text-eligibility-ussi.htm",
+          "application_or_referral_url": "https://www.ssa.gov/ssi",
+          "geographic_service_area": "U.S. including Hawaiʻi",
+          "local_service_locations": "SSA official locator from application site.",
+          "last_verified": "2026-10-26 (Hawaiʻi time)",
+          "rule_effective_date_or_version": "2026 guidance; preserve announced 2027 rules separately from rules effective now.",
+          "application_availability": "Application/appointment routes available; not a benefit guarantee.",
+          "public_participation_statistics": "SSA state/county SSI publications should be selected/versioned; published OASDI congressional counts are a different population. No SLD file verified.",
+          "unverified_fields_before_deterministic_matching": "Full countable-income, resource exclusions, child/parent/spouse deeming and status rules; exact selected SSI participation file.",
+          "eligibility_status": "rules_incomplete",
+          "verification_date": "2026-10-26",
+          "source_id": "government-program-directory-2026-10-26",
+          "provenance_url": "/v1/programs/ssi",
+          "limitation": "Program information and potential relevance only. Rules remain incomplete; district demographics do not establish individual eligibility. Application route does not guarantee an open waitlist, capacity or approval."
+        },
+        {
+          "id": "extra-help",
+          "name": "Medicare Part D Extra Help",
+          "administering_agency": "SSA and CMS",
+          "classification": "Federal",
+          "purpose_benefits": "Reduces prescription-drug coverage costs.",
+          "intended_population": "Medicare beneficiaries with limited income/resources; categorical routes also exist.",
+          "age_income_household_residency_disability_rules": "Individual/spouse finances and countable-resource exclusions, Medicare/PartD status and applicable annual limits. Hawaiʻi income standard must be used.",
+          "eligibility_url": "https://www.ssa.gov/medicare/part-d-extra-help",
+          "application_or_referral_url": "https://www.ssa.gov/medicare/part-d-extra-help",
+          "geographic_service_area": "U.S. including Hawaiʻi",
+          "local_service_locations": "SSA appointment route; Hawaiʻi SHIP counseling.",
+          "last_verified": "2026-10-26 (Hawaiʻi time)",
+          "rule_effective_date_or_version": "Current official page; exact2026 Hawaiʻi income/resource chart not extracted.",
+          "application_availability": "SSA states application can be made any time before/after PartD enrollment. Direct form redirected to a service message during research.",
+          "public_participation_statistics": "CMS low-income-subsidy state/county products may be relevant; exact release not selected; no SLD verified.",
+          "unverified_fields_before_deterministic_matching": "Current HI-specific limits, exclusions and automatic-qualification rules. Link stable official application landing page rather than a time-sensitive form session.",
+          "eligibility_status": "rules_incomplete",
+          "verification_date": "2026-10-26",
+          "source_id": "government-program-directory-2026-10-26",
+          "provenance_url": "/v1/programs/extra-help",
+          "limitation": "Program information and potential relevance only. Rules remain incomplete; district demographics do not establish individual eligibility. Application route does not guarantee an open waitlist, capacity or approval."
+        },
+        {
+          "id": "aging-services",
+          "name": "Older Americans Act / EOA home and community services",
+          "administering_agency": "Hawaiʻi DOH EOA and county offices on aging",
+          "classification": "Federal-state/local service network",
+          "purpose_benefits": "Nutrition, transport, personal care, case management and related supports.",
+          "intended_population": "Generally adults 60+; individual services have additional functional/need criteria.",
+          "age_income_household_residency_disability_rules": "Service-specific assessment and county residence; not a universal cash-income entitlement. Household size/income may affect prioritization rather than categorical eligibility.",
+          "eligibility_url": "https://health.hawaii.gov/eoa/home/home-and-community-services/",
+          "application_or_referral_url": "https://health.hawaii.gov/eoa/home/home-and-community-services/",
+          "geographic_service_area": "Statewide through county networks",
+          "local_service_locations": "Official page links Honolulu, Hawaiʻi, Maui and Kauaʻi offices on aging/ADRC.",
+          "last_verified": "2026-10-26 (Hawaiʻi time)",
+          "rule_effective_date_or_version": "Current service page; contract-specific eligibility and capacity versions not extracted.",
+          "application_availability": "County intake/referral; service capacity and waiting lists require confirmation.",
+          "public_participation_statistics": "EOA/state-plan and county reporting; no public2022 SLD participation series verified.",
+          "unverified_fields_before_deterministic_matching": "Each service’s intake rule, functional assessment, provider area/capacity, prioritization and current contact verification.",
+          "eligibility_status": "rules_incomplete",
+          "verification_date": "2026-10-26",
+          "source_id": "government-program-directory-2026-10-26",
+          "provenance_url": "/v1/programs/aging-services",
+          "limitation": "Program information and potential relevance only. Rules remain incomplete; district demographics do not establish individual eligibility. Application route does not guarantee an open waitlist, capacity or approval."
+        }
+      ],
+      "answerability": "program_information"
+    }
+  },
+  {
+    "scenario": "unsupported",
+    "question": "How many residents here have been evicted in the last month?",
+    "district": "house-30",
+    "status": "passed_source_and_response_contracts",
+    "answer": {
+      "message": "That specific statistic isn't available in the current verified data, so I can't give a reliable count or percentage. Answering it would require a source that measures that outcome for the requested district and time period.\n\nCost burden and crowding can help examine housing pressures. They do not predict eviction or homelessness, and overlapping groups cannot be added into one count of households at risk.\n\nA useful next step is to identify an official source whose population, geography and time period match the question.",
+      "methodology": [],
+      "citations": [],
+      "comparisons": [],
+      "district_id": "house-30",
+      "tools_used": [
+        "explain_available_indicators",
+        "search_indicators",
+        "search_indicators"
+      ],
+      "warnings": [],
+      "reference_period": "2020–2024",
+      "programs": [],
+      "answerability": "unsupported"
+    }
+  }
+]

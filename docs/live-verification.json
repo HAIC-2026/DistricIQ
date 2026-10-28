@@ -1,0 +1,25 @@
+{
+  "verified_on": "2026-10-26",
+  "timezone": "Pacific/Honolulu",
+  "official_house": {
+    "count": 51,
+    "unique_ids": "1\u201351",
+    "valid_polygons": 51,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/33"
+  },
+  "official_senate": {
+    "count": 25,
+    "unique_ids": "1\u201325",
+    "valid_polygons": 25,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/AdminBnd/MapServer/34"
+  },
+  "catalog_records": 417,
+  "crosswalk": {
+    "method": "polygon_surface_area_only",
+    "intersections": 99,
+    "max_relative_error": 1.9862873790867707e-12
+  },
+  "database_verified": false,
+  "acs_live_ingestion_verified": false,
+  "live_openai_verified": false
+}
